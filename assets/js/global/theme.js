@@ -1,0 +1,5 @@
+//MAIN THEME JS
+
+$(function() {
+
+});

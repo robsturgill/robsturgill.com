@@ -1,0 +1,51 @@
+// Typography
+// -------------------------
+
+/*
+Using Google Font CDN
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Source+Sans+Pro:300,400,700" rel="stylesheet">
+*/
+
+@webfont-primary: 'Oswald', Helvetica, Arial, sans-serif;
+@webfont-secondary: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+
+// Webfont name space
+#webfont-primary {
+  .light() {
+    font-family: @webfont-primary;
+    font-weight: 300;
+  }
+  .regular() {
+    font-family: @webfont-primary;
+    font-weight: 400;
+  }
+  .bold() {
+    font-family: @webfont-primary;
+    font-weight: 700;
+  }
+}
+
+#webfont-secondary {
+  .light() {
+    font-family: @webfont-secondary;
+    font-weight: 300;
+  }
+  .regular() {
+    font-family: @webfont-secondary;
+    font-weight: 400;
+  }
+  .bold() {
+    font-family: @webfont-secondary;
+    font-weight: 700;
+  }
+}
+
+// webfont utility classes
+.font-primary-light { #webfont-primary > .light(); }
+.font-primary-regular { #webfont-primary > .regular(); }
+.font-primary-bold { #webfont-primary > .bold(); }
+
+.font-secondary-light { #webfont-secondary > .light(); }
+.font-secondary-regular { #webfont-secondary > .regular(); }
+.font-secondary-bold { #webfont-secondary > .bold(); }

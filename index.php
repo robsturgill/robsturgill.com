@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <title>Rob Sturgill - UX Director • Strategy • Design • Development</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Perfect masonry isotope portfolio template. Masonry portfolio examples. Build your portfolio with berger template." />
-    <meta name="keywords" content="masonry portfolio, portfolio design, portfolio template, minimal portfolio, masonry isotope portfolio " />
-    <meta name="author" content="ClaPat Studio">
-    <meta charset="UTF-8" />
-
-    <link rel="icon" type="image/ico" href="favicon.ico" />
-    <link href="style.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:500,600" rel="stylesheet">
-
-</head>
+<?php include_once('inc/header.php'); ?>
 
 
 
@@ -116,7 +99,7 @@
                     <div id="hero-caption">
                         <div class="inner text-align-center">
                             <div class="hero-title">Rob Sturgill / UX Professional</div>
-                            <div class="hero-subtitle">Creating lasting impressions though inspiration so people together can create better experiences.</div>
+                            <div class="hero-subtitle">Creating lasting impressions though inspiration so people together, can create better experiences.</div>
                         </div>
                     </div>
                 </div>
@@ -292,23 +275,7 @@
                 <div id="open-filters"><i class="fa fa-eye" aria-hidden="true"></i></div>
             </div>
 
-            <ul class="socials-text">
-                <li><a href="http://www.facebook.com/clapat" target="_blank">Facebook</a></li>
-                <li><a href="http://www.twitter.com/clapatdesign" target="_blank">Twitter</a></li>
-                <li><a href="http://www.dribbble.com/clapat" target="_blank">Dribbble</a></li>
-                <li><a href="http://www.behance.net/clapat" target="_blank">Behance</a></li>
-            </ul>
-
-
-	    <div class="progress-page">
-                <div class="scrolltotop is-active is-visible" data-tooltip="Back to Top" data-placement="left">
-                	<div class="arrow-top"></div>
-                    <div class="arrow-top-line"></div>
-                </div>
-                <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-                </svg>
-            </div>
+	    <?php include_once('inc/page-progress.php'); ?>
 
 
         </footer>

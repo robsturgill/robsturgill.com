@@ -5,7 +5,7 @@
    <div class="cd-index cd-main-content">
 
      <!-- Page Content -->
-     <div id="page-content" class="light-content" data-bgcolor="#111" data-textcolor="#9ae326">
+     <div id="page-content" class="light-content" data-bgcolor="#111" data-textcolor="#dd6d28">
 
       <div class="page-overlay from-bottom">
         <div class="animate-box-bottom"></div>
@@ -31,7 +31,7 @@
         <!--/Hero Section -->
 
 
-        <div id="hero-image" class="hidden" style="background-image:url(images/about.jpg)">
+        <div id="hero-image" class="hidden" style="background-image:url(/assets/img/about.jpg)">
          <div id="image-border-left"></div>
          <div id="image-border-right"></div>
        </div>
@@ -47,9 +47,10 @@
             <hr><hr><hr>
 
             <h2>My Story</h2>
-            <p>Over 10 years of experience ranging from graphic design, interactive media development, print/online ad campaigns, project management, and team management. Knowledge in areas such as UI/UX design, front-end development, DevOps, and InfoSec. I can be a leader and collaborator working in fast paced environments to be productive and efficient. I’m adaptable and open to learning new software and tools. I love what I do and enjoy every minute learning and actively lending my expertise to help build stonger teams, solutions and networks.</p>
+            <p>Over 10 years of experience ranging from graphic design, interactive media development, print/online ad campaigns, project management, and team management. Knowledge in areas such as UI/UX design, front-end development, and cyber security. I'm a leader and a collaborator who works in fast-paced environments. I adapt with technology and learni new software and tools. I love what I do and actively lend my expertise to help build stonger teams, solutions and networks.</p>
             <hr><hr>
 
+<?php /*
             <h3>As a UX / Information Architect</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatum, voluptatibus accusamus illum laborum. Facere veniam, dolor culpa fugiat odit perferendis veritatis fugit soluta asperiores, provident quisquam illum rem vero.</p>
 
@@ -59,7 +60,7 @@
             <h3>As a Leader</h3>
             <p>Not everyone understand the difference between leadership and management but good leadership provides individuals with trust, empathy and support.</p>
             <hr><hr><hr>
-
+*/?>
 
             <h3>Services</h3>
             <p>Skills and methods much like software change with time. I have used a range of tools over my career to complete tasks and have adapted to the envoriments I worked in. I have my toolbox but as a UX Director I continously evaluate and assess tools for teams to become more efficient while keeping in mind business overhead, scalability, deployment, and user adoption concers. Here’s a list of apps, services, tools, and methodologies I have used over time.</p>
@@ -80,6 +81,7 @@
               <li>Wireframing, Prototyping</li>
             </ul>
 
+<?php /*
             <div class="one_third">
               <div class="clapat-icon">
                 <i class="fa fa-desktop" aria-hidden="true"></i>
@@ -127,7 +129,7 @@
 
               <h6>Art Direction</h6>
             </div>
-
+*/ ?>
             <hr><hr>
 
             <h3>Talk to me</h3>

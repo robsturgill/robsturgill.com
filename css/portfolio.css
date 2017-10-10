@@ -1,0 +1,625 @@
+/*--------------------------------------------------
+	01. Portfolio Layout
+---------------------------------------------------*/	
+	
+	#filters {
+		margin: 0 auto;
+		text-align:center;
+		opacity:1;
+		height:auto;
+		z-index:15;
+		position:relative;
+		max-width:1000px;
+		width:100%;
+		overflow:hidden;
+		padding:0;
+		
+	}	
+	
+	#filters li {
+		display: inline-block;
+		height: 45px;
+		line-height: 45px;
+		margin: 50px 80px;
+		opacity:1;
+		position:relative;
+		opacity:0;
+		-webkit-transform: scale(0.8);
+		transform: scale(0.8);
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+	
+	.active #filters li {
+		opacity:1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: all 0.4s ease-in-out 0.3s;
+		transition: all 0.4s ease-in-out 0.3s;		
+	}
+	
+	#filters li::after {
+		width: 100%;
+		height: 1px;
+		position: absolute;
+		content: "";
+		background-color:rgba(255,255,255,0.2);
+		left: 0;
+		bottom: 0;
+	}
+	
+	#filters.is-active li {
+		opacity:1;
+		-webkit-transition: all 0.3s ease-in-out 0.6s;
+		-o-transition: all 0.3s ease-in-out 0.6s;
+		-ms-transition: all 0.3s ease-in-out 0.6s;
+		transition: all 0.3s ease-in-out 0.6s;
+	}
+	
+	#filters li a {
+		display:inline-block;
+		color:#fff;
+		font-family: 'Poppins', sans-serif;
+		font-size: 24px;
+		font-weight: 600;
+		z-index:15;
+		position:relative;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+	
+	#filters li a:hover, #filters li a.active {
+		color:#fff;
+	}
+	
+	#filters li a:before {
+		content: '';
+        position: absolute; 
+		bottom: 0px; 
+		left: 0;
+        width: 100%;
+        height: 1px;
+		z-index:0;
+        background: rgba(255,255,255,1);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform .2s ease-out, opacity .2s ease-out 0.3s;
+	}
+	
+	#filters li a:hover:before, #filters li a.active:before {
+		transform: scaleX(1);
+		transform-origin: left;
+	}
+	
+	#filters li span {
+		font-size: 12px;
+		font-weight:400;
+		padding-left: 10px;
+		position: absolute;
+		top: -10px;
+		color:#fff;
+		opacity:0.5;
+	}
+	
+	.light-content #filters li span {
+		opacity:1;
+	}
+		
+	#portfolio-wrap {
+		position:relative;
+		margin:0 auto;
+	}
+	
+	#portfolio {
+		position:relative;
+		margin:0 auto;
+		-webkit-transition: height 0.3s ease-in-out;
+		transition: height 0.3s ease-in-out;
+	}
+	
+	.portfolio:after {
+		content:""; 
+		display:table; 
+		clear:both;
+	}
+  
+	.item {
+		display: block;
+		position: relative;
+		box-sizing: border-box;
+	}
+	
+	.item-content {
+		width: 100%;
+		height: 100%;
+		position:relative;
+		cursor:pointer;
+		opacity:0;
+		overflow:hidden;
+		-webkit-transition: opacity 0.3s ease-in-out 0.1s;
+		transition: opacity 0.3s ease-in-out 0.1s;		
+	}
+	
+	.item.in-view .item-content {
+		opacity:1;
+	}
+	
+	.item-image {
+		background-size:cover;
+		background-position:center center;
+		width:100%;
+		margin:0 auto;
+		height: 100%;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: opacity 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out;
+		transition: opacity 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out;
+	}
+	
+	.item:hover .item-image {
+		-webkit-transform: scale(1.02);
+		transform: scale(1.02);
+	}
+	
+	.hover-visible-text .item-image {
+		height: calc(100% - 80px);
+	}
+		
+	.no-gutter .hover-visible-text .item-image {
+		height: calc(100% - 120px);
+	}
+	
+	.item-caption {
+		position: absolute;
+		width:100%;
+		display: block;
+		text-align: left;
+		padding: 160px 60px 60px 60px;
+		box-sizing:border-box;
+		height: auto;
+		bottom: 0;
+		left: 0;
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.hover-visible-text .item-caption {
+    	padding: 60px 0 0px 0;
+		background:none!important;
+	}
+	
+	.no-gutter .hover-visible-text .item-caption {
+    	padding: 60px 0 50px 0;
+		background:none!important;
+	}
+	
+	.item-title {
+		font-weight: 600;
+		font-family: 'Poppins', sans-serif;
+		font-size: 18px;
+		color:rgba(255,255,255,1);
+	}
+	
+	.large-hover .item-title {
+		font-size: 36px;
+	}
+	
+	.hover-visible-text .item-title {
+		color:rgba(0,0,0,1);
+		font-size: 24px;
+	}
+	
+	.light-content .hover-visible-text .item-title {
+		color:rgba(255,255,255,1);
+	}
+	
+	.item:first-child .item-title::after {
+		content: "New";
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		position: absolute;
+		font-weight: 400;
+		margin-left: 10px;
+		color: #FF1B0B;
+	}
+	
+	.item-sub-mask {
+		height:20px;
+		width:auto;
+		overflow:hidden;
+		box-sizing:border-box;
+	}
+	
+	.item-cat {
+		font-size: 12px;
+		font-weight:300;
+		line-height:20px;
+		color:rgba(255,255,255,0.6);
+		-webkit-transition: all 0.15s ease-in-out;
+		transition: all 0.15s ease-in-out;
+	}
+	
+	.large-hover .item-cat {
+		font-size: 14px;
+		font-weight:400;
+	}
+	
+	.item:hover .item-cat {
+		margin-top:-20px;		
+	}
+	
+	.hover-visible-text .item-cat {
+		color:rgba(0,0,0,0.4);
+		font-size: 13px;
+		font-weight:400;
+	}
+	
+	.light-content .hover-visible-text .item-cat, .light-content .hover-visible-text .item-case {
+		color:rgba(255,255,255,0.4);
+	}
+	
+	.item-case {
+		font-size: 12px;
+		font-weight:300;
+		line-height:20px;
+		color:rgba(255,255,255,0.6);
+	}
+	
+	.large-hover .item-case {
+		font-size: 14px;
+		font-weight:400;
+	}
+	
+	.hover-visible-text .item-case {
+		color:rgba(0,0,0,0.4);
+		font-size: 13px;
+		font-weight:400;
+	}
+	
+	/* Item Hover Transform */
+	
+	.transform-hover .item-content {
+		overflow:hidden;
+	}	
+	
+	.transform-hover .item-content .item-overlay {
+		box-sizing: border-box;
+		height: 100%;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		background-color:rgba(0,0,0,0.8);
+		opacity:0;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+        -webkit-transform-origin: right;
+		transform-origin: right;
+        -webkit-transition: opacity 0s ease-out 0.3s, transform 0.25s ease-in;
+		transition: opacity 0s ease-out 0.3s, transform 0.25s ease-in;
+	}
+	
+	.transform-hover .item-caption {
+		height:100%;
+		padding:0;
+		background:none;
+	}
+	
+	.transform-hover .item-content:hover .item-overlay {
+		opacity:1;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+        -webkit-transform-origin: left;
+		transform-origin: left;
+        -webkit-transition: opacity 0s ease-out 0.02s, transform 0.25s ease-out 0.1s;
+		transition: opacity 0s ease-out 0.02s, transform 0.25s ease-out 0.1s;
+	}
+	
+	.transform-hover .item-title {
+		font-size: 24px;
+		line-height:24px;
+		color:#fff;		
+		height:30px;
+		overflow:hidden;		
+		display:block;
+		opacity:0;
+		position:absolute;
+		top:40px;
+		left:40px;
+		-webkit-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+		-webkit-transform: translateX(-30px);
+		transform: translateX(-30px);
+	}
+	
+	.transform-hover .item-content:hover .item-title {
+		opacity:1;
+		-webkit-transform: translateX(-1px);
+		transform: translateX(-1px);
+		-webkit-transition: all 0.2s ease-in-out 0.3s;
+		transition: all 0.2s ease-in-out 0.3s;
+	}
+		
+	
+	.transform-hover .item-cat {		
+		font-size: 12px;
+		line-height:12px;
+		font-weight: 300;
+		color:rgba(255,255,255,0.6);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+		-webkit-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;		
+		display:block;
+		margin-bottom:25px;
+		opacity:0;
+		position:absolute;
+		bottom:30px;
+		left:40px;	
+		-webkit-transform: translateX(-30px);
+		transform: translateX(-30px);
+	}
+	
+	.transform-hover .item-content:hover .item-cat {
+		opacity:1;
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+		-webkit-transition: all 0.2s ease-in-out 0.4s;
+		transition: all 0.2s ease-in-out 0.4s;
+	}
+	
+	.transform-hover .item-case {
+		display:none;
+	}
+	
+	/* Item Tooltip Hover */	
+	
+	.tooltip-hover .item-caption {
+		background:none;
+	}
+	
+	.tooltip-hover .item-overlay {
+		text-decoration:none;
+		position:relative;
+	}
+	.tooltip-hover .item-overlay {
+		display:none;
+		z-index:100;
+	}
+	.tooltip-hover .item-content:hover .item-overlay {
+		display:block;
+		position:fixed;
+		overflow:hidden;
+	}
+	
+	.hover.item-overlay {
+		display:block;
+		position:fixed;
+		overflow:hidden;
+	}
+	
+	.tooltip-hover .item-overlay .item-title {
+		font-size: 24px;
+		line-height:24px;
+		padding:10px 12px;
+		color:#fff;
+		background-color:#222;
+		margin-bottom:0px;
+	}
+	
+	.tooltip-hover .item:first-child .item-overlay .item-title {
+		padding-right:50px;
+	}
+	
+	.tooltip-hover .item-overlay .item-cat {
+		font-size: 12px;
+		line-height:12px;
+		font-weight: 300;
+		color:#999;
+		padding:10px 12px;
+		padding-top:0px;
+		background-color:#222;
+		width:auto;
+		float:left;
+	}
+	
+	.tooltip-hover .item-case {
+		display:none;
+	}
+	
+	.tooltip-hover .item:hover .item-cat {
+		margin-top:0px;		
+	}
+	
+	.hover-visible-text .item:hover .item-image, .tooltip-hover .item:hover .item-image, .transform-hover .item:hover .item-image, .large-hover .item:hover .item-image {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+/*--------------------------------------------------
+	02. Portfolio Isotope Transitions
+---------------------------------------------------*/
+
+	.isotope, .isotope .isotope-item {
+		-webkit-transition-duration: 0.8s;
+		-moz-transition-duration: 0.8s;
+		-ms-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+	}
+	
+	.isotope {
+		-webkit-transition-property: height, width;
+		-moz-transition-property: height, width;
+		-ms-transition-property: height, width;
+		-o-transition-property: height, width;
+		transition-property: height, width;
+	}
+	
+	.isotope .isotope-item {
+		-webkit-transition-property: -webkit-transform, opacity;
+		-moz-transition-property: -moz-transform, opacity;
+		-ms-transition-property: -ms-transform, opacity;
+		-o-transition-property: -o-transform, opacity;
+		transition-property: transform, opacity;
+	}
+	
+	.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+		-webkit-transition-duration: 0s;
+		-moz-transition-duration: 0s;
+		-ms-transition-duration: 0s;
+		-o-transition-duration: 0s;
+		transition-duration: 0s;
+	}
+	
+
+
+/*--------------------------------------------------
+	03. Project Page Navigation
+---------------------------------------------------*/	
+	
+	
+	#project-nav {
+		width:100%;
+		padding:0 20px;
+		padding-bottom:120px;
+		padding-top:180px;
+		text-align:center;
+		box-sizing:border-box;
+		color:#000;
+	}
+	
+	#project-nav.hidden {
+		-webkit-transition: all 0.2s ease-in-out 0s;
+		-moz-transition: all 0.2s ease-in-out 0s;
+		-o-transition: all 0.2s ease-in-out 0s;
+		-ms-transition: all 0.2s ease-in-out 0s;
+		transition: all 0.2s ease-in-out 0s;
+		opacity:0;
+	}
+	
+	#project-nav a{
+		color:#000;
+	}
+	
+	.light-content #project-nav, .light-content #project-nav a {
+		color:#fff;
+	}
+	
+	.nav-title {
+		font-weight: 600;
+		font-family: 'Poppins', sans-serif;
+		font-size:80px;
+		line-height:72px;	
+		display:inline-block;
+	}
+	
+	.nav-project-title {
+		font-size:14px;
+		line-height:24px;
+		font-weight:400;
+	}
+	
+	.nav-project-title span {
+		opacity:0;
+		display: inline-block;
+		margin: 0 2px;
+		line-height: 24px;
+		height: 30px;
+		overflow: hidden;
+		padding-top: 30px;
+		box-sizing: border-box;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+	
+	.nav-project-title.hover span {
+		opacity:0.5;
+		padding-top:0;
+	}
+	
+	
+	
+/*--------------------------------------------------
+	04. Responsive
+---------------------------------------------------*/			
+			
+
+
+
+@media only screen and (max-width: 1466px) {
+	
+	
+	.item-caption {
+    	padding: 120px 50px 50px 50px;
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 1024px) {
+	
+	
+	#filters {
+		max-width: 160px;
+		width: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+	
+	#filters li {
+		display: table;
+		margin:20px auto;
+	}
+	
+	.item-caption {
+    	padding: 110px 40px 40px 40px;
+	}
+	
+	.large-hover .item-title {
+		font-size: 24px;
+	}
+	
+	.large-hover .item-cat, .large-hover .item-case {
+		font-size: 12px;
+		font-weight:300;
+	}
+	
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	
+	.large-hover .item-title {
+		font-size: 18px;
+	}
+	
+	.large-hover .item-cat, .large-hover .item-case {
+		font-size: 12px;
+		font-weight:300;
+	}
+	
+	
+}
+
+
+@media only screen and (max-width: 479px) {
+	
+	.item-caption {
+    	padding: 100px 30px 30px 30px;
+	}
+		
+}			
+	

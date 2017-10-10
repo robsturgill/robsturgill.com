@@ -1,0 +1,64 @@
+<ifModule mod_headers.c> 
+	Header set Connection keep-alive 
+</ifModule>
+
+# Browser Caching
+
+FileETag MTime Size
+
+<IfModule expires_module>
+    ExpiresActive on
+    ExpiresByType text/plain "access plus 1 week"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType text/javascript "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType application/x-javascript "access plus 1 week"
+    ExpiresByType image/svg+xml "access plus 1 week"
+    ExpiresByType image/gif "access plus 1 week"
+    ExpiresByType image/png "access plus 1 week"
+    ExpiresByType image/ico "access plus 1 week"
+    ExpiresByType image/x-icon "access plus 1 week"
+    ExpiresByType image/jpg "access plus 1 week"
+    ExpiresByType image/jpe "access plus 1 week"
+    ExpiresByType image/jpeg "access plus 1 week"
+    ExpiresByType font/truetype "access plus 1 week"
+    ExpiresByType application/x-font-ttf "access plus 1 week"
+    ExpiresByType font/opentype "access plus 1 week"
+	ExpiresByType font/ttf "access plus 1 week"
+  	ExpiresByType font/woff "access plus 1 week"
+    ExpiresByType application/x-font-otf "access plus 1 week"
+    ExpiresByType application/font-woff "access plus 1 week"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1 week"
+    ExpiresByType application/x-shockwave-flash "access plus 1 week"
+    ExpiresByType application/x-httpd-php-source "access plus 1 week"
+</IfModule>
+
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddType x-font/otf .otf
+AddType x-font/ttf .ttf
+AddType x-font/eot .eot
+AddType x-font/woff .woff
+AddType image/x-icon .ico
+AddType image/png .png
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /themes/soho-wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /themes/soho-wordpress/index.php [L]
+</IfModule>
+
+# END WordPress
+
+

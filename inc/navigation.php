@@ -26,7 +26,7 @@
                 </li>
                 <li><a class="ajax-link" href="about.php" data-type="page-transition">About</a></li>
                 <li><a class="ajax-link" href="blog.html" data-type="page-transition">Blog</a></li>
-                <li><a class="ajax-link" href="contact.html" data-type="page-transition">Contact</a></li>
+                <li><a class="ajax-link" href="contact.php" data-type="page-transition">Contact</a></li>
               </ul>
 
             </nav>

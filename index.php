@@ -71,14 +71,14 @@
                     <div id="portfolio" data-col="3">
 
                   	<div class="item branding">
-                    	<a href="project01.html" class="ajax-link" data-type="page-transition">
+                    	<a href="automobility.php" class="ajax-link" data-type="page-transition">
                     		<div class="item-content">
-                            	<div class="item-image" data-src="images/1.jpg"></div>
+                            	<div class="item-image" data-src="/assets/img/projects/automobility/automobility-thumb.jpg"></div>
                                 <div class="item-caption">
                                 	<div class="item-overlay">
-                                        <div class="item-title">Solave Cleanser</div>
+                                        <div class="item-title">FCA Automobility</div>
                                         <div class="item-sub-mask">
-                                            <div class="item-cat">Branding</div>
+                                            <div class="item-cat">UX/UI</div>
                                             <div class="item-case">See Case Study</div>
                                         </div>
                                     </div>

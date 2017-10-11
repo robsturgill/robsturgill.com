@@ -66,7 +66,7 @@
 
               <div class="container">
 
-                <img src="images/projects/solave01.gif" alt="">
+                <img src="/assets/img/projects/automobility/automobility-wireframes.jpg" alt="Automobility Wireframes">
 
                 <hr><hr>
 

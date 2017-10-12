@@ -118,24 +118,24 @@
                                     </div>
                                 </div>
                             </div>
-			</a>
+			            </a>
                     </div>
 
                     <div class="item web">
-                    	<a href="project04.html" class="ajax-link" data-type="page-transition">
+                    	<a href="hitman.php" class="ajax-link" data-type="page-transition">
                     		<div class="item-content">
-                            	<div class="item-image" data-src="images/4.jpg"></div>
+                            	<div class="item-image" data-src="/assets/img/projects/hitman/hitman-thumb.jpg"></div>
                                 <div class="item-caption">
                                     <div class="item-overlay">
-                                        <div class="item-title">Bob and Mou</div>
+                                        <div class="item-title">Hitman Poster</div>
                                         <div class="item-sub-mask">
-                                            <div class="item-cat">Web Design</div>
-                                            <div class="item-case">See Case Study</div>
+                                            <div class="item-cat">Art Composition</div>
+                                            <div class="item-case">View Details</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-			</a>
+			            </a>
                     </div>
 
                     <div class="item design">

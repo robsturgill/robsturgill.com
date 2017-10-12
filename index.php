@@ -70,7 +70,7 @@
                     <!-- Portfolio Columns -->
                     <div id="portfolio" data-col="3">
 
-                  	<div class="item branding">
+                  	<div class="item ux">
                     	<a href="automobility.php" class="ajax-link" data-type="page-transition">
                     		<div class="item-content">
                             	<div class="item-image" data-src="/assets/img/projects/automobility/automobility-thumb.jpg"></div>
@@ -88,9 +88,26 @@
                     </div>
 
                     <div class="item wide design">
-                    	<a href="drpepper.php" class="ajax-link" data-type="page-transition">
+                    	<a href="reed-modified.php" class="ajax-link" data-type="page-transition">
                     		<div class="item-content">
-                            	<div class="item-image" data-src="/assets/img/projects/drpepper/destiny-drpepper-thumb.jpg"></div>
+                            	<div class="item-image" data-src="/assets/img/projects/reed-modified/reed-modified-thumb.jpg"></div>
+                                <div class="item-caption">
+                                    <div class="item-overlay">
+                                        <div class="item-title">Reed Modified</div>
+                                        <div class="item-sub-mask">
+                                            <div class="item-cat">Logo</div>
+                                            <div class="item-case">View Detail</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item wide design">
+                        <a href="drpepper.php" class="ajax-link" data-type="page-transition">
+                            <div class="item-content">
+                                <div class="item-image" data-src="/assets/img/projects/drpepper/destiny-drpepper-thumb.jpg"></div>
                                 <div class="item-caption">
                                     <div class="item-overlay">
                                         <div class="item-title">First Sip</div>
@@ -104,24 +121,7 @@
                         </a>
                     </div>
 
-                    <div class="item wide web">
-                    	<a href="project03.html" class="ajax-link" data-type="page-transition">
-                    		<div class="item-content">
-                            	<div class="item-image" data-src="images/3.jpg"></div>
-                                <div class="item-caption">
-                                    <div class="item-overlay">
-                                        <div class="item-title">MT Architects</div>
-                                        <div class="item-sub-mask">
-                                            <div class="item-cat">Web Design</div>
-                                            <div class="item-case">See Case Study</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-			            </a>
-                    </div>
-
-                    <div class="item web">
+                    <div class="item design">
                     	<a href="hitman.php" class="ajax-link" data-type="page-transition">
                     		<div class="item-content">
                             	<div class="item-image" data-src="/assets/img/projects/hitman/hitman-thumb.jpg"></div>

@@ -1,7 +1,7 @@
 /*--------------------------------------------------
 	01. Portfolio Layout
----------------------------------------------------*/	
-	
+---------------------------------------------------*/
+
 	#filters {
 		margin: 0 auto;
 		text-align:center;
@@ -13,9 +13,9 @@
 		width:100%;
 		overflow:hidden;
 		padding:0;
-		
-	}	
-	
+
+	}
+
 	#filters li {
 		display: inline-block;
 		height: 45px;
@@ -29,15 +29,15 @@
 		-webkit-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 	}
-	
+
 	.active #filters li {
 		opacity:1;
 		-webkit-transform: scale(1);
 		transform: scale(1);
 		-webkit-transition: all 0.4s ease-in-out 0.3s;
-		transition: all 0.4s ease-in-out 0.3s;		
+		transition: all 0.4s ease-in-out 0.3s;
 	}
-	
+
 	#filters li::after {
 		width: 100%;
 		height: 1px;
@@ -47,7 +47,7 @@
 		left: 0;
 		bottom: 0;
 	}
-	
+
 	#filters.is-active li {
 		opacity:1;
 		-webkit-transition: all 0.3s ease-in-out 0.6s;
@@ -55,7 +55,7 @@
 		-ms-transition: all 0.3s ease-in-out 0.6s;
 		transition: all 0.3s ease-in-out 0.6s;
 	}
-	
+
 	#filters li a {
 		display:inline-block;
 		color:#fff;
@@ -70,15 +70,15 @@
 		-ms-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
 	}
-	
+
 	#filters li a:hover, #filters li a.active {
 		color:#fff;
 	}
-	
+
 	#filters li a:before {
 		content: '';
-        position: absolute; 
-		bottom: 0px; 
+        position: absolute;
+		bottom: 0px;
 		left: 0;
         width: 100%;
         height: 1px;
@@ -88,12 +88,12 @@
         transform-origin: right;
         transition: transform .2s ease-out, opacity .2s ease-out 0.3s;
 	}
-	
+
 	#filters li a:hover:before, #filters li a.active:before {
 		transform: scaleX(1);
 		transform-origin: left;
 	}
-	
+
 	#filters li span {
 		font-size: 12px;
 		font-weight:400;
@@ -103,35 +103,35 @@
 		color:#fff;
 		opacity:0.5;
 	}
-	
+
 	.light-content #filters li span {
 		opacity:1;
 	}
-		
+
 	#portfolio-wrap {
 		position:relative;
 		margin:0 auto;
 	}
-	
+
 	#portfolio {
 		position:relative;
 		margin:0 auto;
 		-webkit-transition: height 0.3s ease-in-out;
 		transition: height 0.3s ease-in-out;
 	}
-	
+
 	.portfolio:after {
-		content:""; 
-		display:table; 
+		content:"";
+		display:table;
 		clear:both;
 	}
-  
+
 	.item {
 		display: block;
 		position: relative;
 		box-sizing: border-box;
 	}
-	
+
 	.item-content {
 		width: 100%;
 		height: 100%;
@@ -140,13 +140,13 @@
 		opacity:0;
 		overflow:hidden;
 		-webkit-transition: opacity 0.3s ease-in-out 0.1s;
-		transition: opacity 0.3s ease-in-out 0.1s;		
+		transition: opacity 0.3s ease-in-out 0.1s;
 	}
-	
+
 	.item.in-view .item-content {
 		opacity:1;
 	}
-	
+
 	.item-image {
 		background-size:cover;
 		background-position:center center;
@@ -158,20 +158,20 @@
 		-webkit-transition: opacity 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out;
 		transition: opacity 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out;
 	}
-	
+
 	.item:hover .item-image {
 		-webkit-transform: scale(1.02);
 		transform: scale(1.02);
 	}
-	
+
 	.hover-visible-text .item-image {
 		height: calc(100% - 80px);
 	}
-		
+
 	.no-gutter .hover-visible-text .item-image {
 		height: calc(100% - 120px);
 	}
-	
+
 	.item-caption {
 		position: absolute;
 		width:100%;
@@ -187,37 +187,37 @@
 		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 	}
-	
+
 	.hover-visible-text .item-caption {
     	padding: 60px 0 0px 0;
 		background:none!important;
 	}
-	
+
 	.no-gutter .hover-visible-text .item-caption {
     	padding: 60px 0 50px 0;
 		background:none!important;
 	}
-	
+
 	.item-title {
 		font-weight: 600;
 		font-family: 'Poppins', sans-serif;
 		font-size: 18px;
 		color:rgba(255,255,255,1);
 	}
-	
+
 	.large-hover .item-title {
 		font-size: 36px;
 	}
-	
+
 	.hover-visible-text .item-title {
 		color:rgba(0,0,0,1);
 		font-size: 24px;
 	}
-	
+
 	.light-content .hover-visible-text .item-title {
 		color:rgba(255,255,255,1);
 	}
-	
+
 	.item:first-child .item-title::after {
 		content: "New";
 		font-family: 'Roboto', sans-serif;
@@ -227,14 +227,14 @@
 		margin-left: 10px;
 		color: #FF1B0B;
 	}
-	
+
 	.item-sub-mask {
 		height:20px;
 		width:auto;
 		overflow:hidden;
 		box-sizing:border-box;
 	}
-	
+
 	.item-cat {
 		font-size: 12px;
 		font-weight:300;
@@ -243,50 +243,50 @@
 		-webkit-transition: all 0.15s ease-in-out;
 		transition: all 0.15s ease-in-out;
 	}
-	
+
 	.large-hover .item-cat {
 		font-size: 14px;
 		font-weight:400;
 	}
-	
+
 	.item:hover .item-cat {
-		margin-top:-20px;		
+		margin-top:-20px;
 	}
-	
+
 	.hover-visible-text .item-cat {
 		color:rgba(0,0,0,0.4);
 		font-size: 13px;
 		font-weight:400;
 	}
-	
+
 	.light-content .hover-visible-text .item-cat, .light-content .hover-visible-text .item-case {
 		color:rgba(255,255,255,0.4);
 	}
-	
+
 	.item-case {
 		font-size: 12px;
 		font-weight:300;
 		line-height:20px;
 		color:rgba(255,255,255,0.6);
 	}
-	
+
 	.large-hover .item-case {
 		font-size: 14px;
 		font-weight:400;
 	}
-	
+
 	.hover-visible-text .item-case {
 		color:rgba(0,0,0,0.4);
 		font-size: 13px;
 		font-weight:400;
 	}
-	
+
 	/* Item Hover Transform */
-	
+
 	.transform-hover .item-content {
 		overflow:hidden;
-	}	
-	
+	}
+
 	.transform-hover .item-content .item-overlay {
 		box-sizing: border-box;
 		height: 100%;
@@ -304,13 +304,13 @@
         -webkit-transition: opacity 0s ease-out 0.3s, transform 0.25s ease-in;
 		transition: opacity 0s ease-out 0.3s, transform 0.25s ease-in;
 	}
-	
+
 	.transform-hover .item-caption {
 		height:100%;
 		padding:0;
 		background:none;
 	}
-	
+
 	.transform-hover .item-content:hover .item-overlay {
 		opacity:1;
 		-webkit-transform: scaleX(1);
@@ -320,13 +320,13 @@
         -webkit-transition: opacity 0s ease-out 0.02s, transform 0.25s ease-out 0.1s;
 		transition: opacity 0s ease-out 0.02s, transform 0.25s ease-out 0.1s;
 	}
-	
+
 	.transform-hover .item-title {
 		font-size: 24px;
 		line-height:24px;
-		color:#fff;		
+		color:#fff;
 		height:30px;
-		overflow:hidden;		
+		overflow:hidden;
 		display:block;
 		opacity:0;
 		position:absolute;
@@ -337,7 +337,7 @@
 		-webkit-transform: translateX(-30px);
 		transform: translateX(-30px);
 	}
-	
+
 	.transform-hover .item-content:hover .item-title {
 		opacity:1;
 		-webkit-transform: translateX(-1px);
@@ -345,9 +345,9 @@
 		-webkit-transition: all 0.2s ease-in-out 0.3s;
 		transition: all 0.2s ease-in-out 0.3s;
 	}
-		
-	
-	.transform-hover .item-cat {		
+
+
+	.transform-hover .item-cat {
 		font-size: 12px;
 		line-height:12px;
 		font-weight: 300;
@@ -355,17 +355,17 @@
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
 		-webkit-transition: all 0.1s ease-in-out;
-		transition: all 0.1s ease-in-out;		
+		transition: all 0.1s ease-in-out;
 		display:block;
 		margin-bottom:25px;
 		opacity:0;
 		position:absolute;
 		bottom:30px;
-		left:40px;	
+		left:40px;
 		-webkit-transform: translateX(-30px);
 		transform: translateX(-30px);
 	}
-	
+
 	.transform-hover .item-content:hover .item-cat {
 		opacity:1;
 		-webkit-transform: translateX(0px);
@@ -373,17 +373,17 @@
 		-webkit-transition: all 0.2s ease-in-out 0.4s;
 		transition: all 0.2s ease-in-out 0.4s;
 	}
-	
+
 	.transform-hover .item-case {
 		display:none;
 	}
-	
-	/* Item Tooltip Hover */	
-	
+
+	/* Item Tooltip Hover */
+
 	.tooltip-hover .item-caption {
 		background:none;
 	}
-	
+
 	.tooltip-hover .item-overlay {
 		text-decoration:none;
 		position:relative;
@@ -397,13 +397,13 @@
 		position:fixed;
 		overflow:hidden;
 	}
-	
+
 	.hover.item-overlay {
 		display:block;
 		position:fixed;
 		overflow:hidden;
 	}
-	
+
 	.tooltip-hover .item-overlay .item-title {
 		font-size: 24px;
 		line-height:24px;
@@ -412,11 +412,11 @@
 		background-color:#222;
 		margin-bottom:0px;
 	}
-	
+
 	.tooltip-hover .item:first-child .item-overlay .item-title {
 		padding-right:50px;
 	}
-	
+
 	.tooltip-hover .item-overlay .item-cat {
 		font-size: 12px;
 		line-height:12px;
@@ -428,15 +428,15 @@
 		width:auto;
 		float:left;
 	}
-	
+
 	.tooltip-hover .item-case {
 		display:none;
 	}
-	
+
 	.tooltip-hover .item:hover .item-cat {
-		margin-top:0px;		
+		margin-top:0px;
 	}
-	
+
 	.hover-visible-text .item:hover .item-image, .tooltip-hover .item:hover .item-image, .transform-hover .item:hover .item-image, .large-hover .item:hover .item-image {
 		-webkit-transform: scale(1);
 		transform: scale(1);
@@ -453,7 +453,7 @@
 		-o-transition-duration: 0.8s;
 		transition-duration: 0.8s;
 	}
-	
+
 	.isotope {
 		-webkit-transition-property: height, width;
 		-moz-transition-property: height, width;
@@ -461,7 +461,7 @@
 		-o-transition-property: height, width;
 		transition-property: height, width;
 	}
-	
+
 	.isotope .isotope-item {
 		-webkit-transition-property: -webkit-transform, opacity;
 		-moz-transition-property: -moz-transform, opacity;
@@ -469,7 +469,7 @@
 		-o-transition-property: -o-transform, opacity;
 		transition-property: transform, opacity;
 	}
-	
+
 	.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
 		-webkit-transition-duration: 0s;
 		-moz-transition-duration: 0s;
@@ -477,14 +477,14 @@
 		-o-transition-duration: 0s;
 		transition-duration: 0s;
 	}
-	
+
 
 
 /*--------------------------------------------------
 	03. Project Page Navigation
----------------------------------------------------*/	
-	
-	
+---------------------------------------------------*/
+
+
 	#project-nav {
 		width:100%;
 		padding:0 20px;
@@ -494,7 +494,7 @@
 		box-sizing:border-box;
 		color:#000;
 	}
-	
+
 	#project-nav.hidden {
 		-webkit-transition: all 0.2s ease-in-out 0s;
 		-moz-transition: all 0.2s ease-in-out 0s;
@@ -503,29 +503,29 @@
 		transition: all 0.2s ease-in-out 0s;
 		opacity:0;
 	}
-	
+
 	#project-nav a{
 		color:#000;
 	}
-	
+
 	.light-content #project-nav, .light-content #project-nav a {
 		color:#fff;
 	}
-	
+
 	.nav-title {
 		font-weight: 600;
 		font-family: 'Poppins', sans-serif;
 		font-size:80px;
-		line-height:72px;	
+		line-height:72px;
 		display:inline-block;
 	}
-	
+
 	.nav-project-title {
 		font-size:14px;
 		line-height:24px;
 		font-weight:400;
 	}
-	
+
 	.nav-project-title span {
 		opacity:0;
 		display: inline-block;
@@ -540,35 +540,35 @@
 		-ms-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 	}
-	
+
 	.nav-project-title.hover span {
 		opacity:0.5;
 		padding-top:0;
 	}
-	
-	
-	
+
+
+
 /*--------------------------------------------------
 	04. Responsive
----------------------------------------------------*/			
-			
+---------------------------------------------------*/
+
 
 
 
 @media only screen and (max-width: 1466px) {
-	
-	
+
+
 	.item-caption {
     	padding: 120px 50px 50px 50px;
 	}
 
-	
+
 }
 
 
 @media only screen and (max-width: 1024px) {
-	
-	
+
+
 	#filters {
 		max-width: 160px;
 		width: auto;
@@ -576,50 +576,55 @@
 		margin: 0 auto;
 	}
 
-	
+
 	#filters li {
 		display: table;
 		margin:20px auto;
 	}
-	
+
 	.item-caption {
     	padding: 110px 40px 40px 40px;
 	}
-	
+
 	.large-hover .item-title {
 		font-size: 24px;
 	}
-	
+
 	.large-hover .item-cat, .large-hover .item-case {
 		font-size: 12px;
 		font-weight:300;
 	}
-	
-	
+
+
 }
 
 
 @media only screen and (max-width: 767px) {
-	
-	
+
+
 	.large-hover .item-title {
 		font-size: 18px;
 	}
-	
+
 	.large-hover .item-cat, .large-hover .item-case {
 		font-size: 12px;
 		font-weight:300;
 	}
-	
-	
+
+
 }
 
 
 @media only screen and (max-width: 479px) {
-	
+
 	.item-caption {
     	padding: 100px 30px 30px 30px;
 	}
-		
-}			
-	
+
+}
+
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}

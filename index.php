@@ -88,15 +88,15 @@
                     </div>
 
                     <div class="item wide design">
-                    	<a href="project02.html" class="ajax-link" data-type="page-transition">
+                    	<a href="drpepper.php" class="ajax-link" data-type="page-transition">
                     		<div class="item-content">
-                            	<div class="item-image" data-src="images/2.jpg"></div>
+                            	<div class="item-image" data-src="/assets/img/projects/drpepper/destiny-drpepper-thumb.jpg"></div>
                                 <div class="item-caption">
                                     <div class="item-overlay">
-                                        <div class="item-title">Ellie Cashman</div>
+                                        <div class="item-title">First Sip</div>
                                         <div class="item-sub-mask">
-                                            <div class="item-cat">Art Direction</div>
-                                            <div class="item-case">See Case Study</div>
+                                            <div class="item-cat">Art Composition</div>
+                                            <div class="item-case">View Detail</div>
                                         </div>
                                     </div>
                                 </div>

@@ -109,15 +109,15 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                 </div>
 
                 <div class="item wide design">
-                  <a href="drpepper.php" class="ajax-link" data-type="page-transition">
+                  <a href="nashsauto.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
-                      <div class="item-image" data-src="/assets/img/projects/drpepper/destiny-drpepper-thumb.jpg"></div>
+                      <div class="item-image" data-src="/assets/img/projects/nashs-auto/nash-auto-thumb.jpg"></div>
                       <div class="item-caption">
                         <div class="item-overlay">
-                          <div class="item-title">First Sip</div>
+                          <div class="item-title">Nash's Auto</div>
                           <div class="item-sub-mask">
-                            <div class="item-cat">Art Composition</div>
-                            <div class="item-case">View Detail</div>
+                            <div class="item-cat">Web / Branding</div>
+                            <div class="item-case">See Case Study</div>
                           </div>
                         </div>
                       </div>

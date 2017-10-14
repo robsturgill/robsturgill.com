@@ -1,6 +1,6 @@
 <?php
   $title = 'Hitman Poster • Art Composition';
-  $description = 'Fan art poster created for a class project.';
+  $description = 'Game inspired fan art photo manipulation project.';
 ?>
 <?php include_once('inc/header.php'); ?>
 
@@ -43,6 +43,13 @@
             <!-- Row -->
             <div class="vc_row has-animation row_padding_top row_padding_bottom animate-in" data-delay="10">
               <div class="container">
+                <div class=" one_third"><h2 style="color: rgb(255, 255, 255);">Details</h2></div>
+                <div class=" two_third last">
+                  <p>Photo manipulation project. The various reference images at the bottom with me behind the camera in the shaving photo.</p>
+                </div>
+              </div>
+
+              <div class="container">
                 <img class="img-center" src="/assets/img/projects/hitman/hitman-game-inspired-photo-manipulation.jpg" alt="Hitman Poster">
                 <img class="img-center" src="/assets/img/projects/hitman/hitman-photo-manipulation-references.jpg" alt="Photo References">
               </div>
@@ -52,9 +59,9 @@
 
             <div id="project-nav" class="has-animation" data-delay="100">
               <div class="nav-title">
-                <a  class="ajax-link project-next" data-type="page-transition" href="project02.html">next</a>
+                <a  class="ajax-link project-next" data-type="page-transition" href="/drpepper.php">next</a>
               </div>
-              <div class="nav-project-title"><span>Ellie Cashman</span></div>
+              <div class="nav-project-title"><span>First Sip</span></div>
             </div>
 
 

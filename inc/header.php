@@ -10,7 +10,7 @@
   <meta name="description" content="<?php if(isset($description)) echo $description; ?>" />
   <meta name="author" content="Rob Sturgill">
   <link rel="icon" type="image/ico" href="favicon.ico" />
-  <link href="style.css?<?php echo date('Y-m-d H:i:s'); ?>" rel="stylesheet" />
+  <link href="style.css?<?php echo date('Y-m-dH:i:s'); ?>" rel="stylesheet" />
   <link href="css/font-awesome.min.css" rel="stylesheet" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Poppins:500,600" rel="stylesheet">

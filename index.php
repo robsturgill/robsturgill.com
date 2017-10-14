@@ -126,15 +126,15 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                 </div>
 
                 <div class="item design">
-                  <a href="hitman.php" class="ajax-link" data-type="page-transition">
+                  <a href="drpepper.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
-                      <div class="item-image" data-src="/assets/img/projects/hitman/hitman-thumb.jpg"></div>
+                      <div class="item-image" data-src="/assets/img/projects/drpepper/destiny-drpepper-thumb.jpg"></div>
                       <div class="item-caption">
                         <div class="item-overlay">
-                          <div class="item-title">Hitman Poster</div>
+                          <div class="item-title">First Sip</div>
                           <div class="item-sub-mask">
                             <div class="item-cat">Art Composition</div>
-                            <div class="item-case">View Details</div>
+                            <div class="item-case">View Detail</div>
                           </div>
                         </div>
                       </div>

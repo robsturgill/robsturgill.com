@@ -33,7 +33,7 @@
           <div id="hero-height" class="hidden"></div>
           <!--/Hero Section -->
 
-          <div id="hero-image" class="hidden" style="background-image:url(/assets/img/projects/drpepper/destiny-drpepper-thumb.jpg)">
+          <div id="hero-image" class="hidden" style="background-image:url(/assets/img/projects/drpepper/destiny-drpepper-hero.jpg)">
             <div id="image-border-left"></div>
             <div id="image-border-right"></div>
           </div>

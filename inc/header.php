@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Rob Sturgill - UX Director • Strategy • Design • Development</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Perfect masonry isotope portfolio template. Masonry portfolio examples. Build your portfolio with berger template." />
-  <meta name="keywords" content="masonry portfolio, portfolio design, portfolio template, minimal portfolio, masonry isotope portfolio " />
-  <meta name="author" content="ClaPat Studio">
   <meta charset="UTF-8" />
-
+  <title><?php
+  // ### TODO ###
+  // NEED SET DEFAULTS IF VAR IS NOT SET
+  if(isset($title)) echo $title; ?> • Rob Sturgill</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="<?php if(isset($description)) echo $description; ?>" />
+  <meta name="author" content="Rob Sturgill">
   <link rel="icon" type="image/ico" href="favicon.ico" />
   <link href="style.css" rel="stylesheet" />
   <link href="css/font-awesome.min.css" rel="stylesheet" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Poppins:500,600" rel="stylesheet">
+  <?php if(isset($canonical)) echo '<link rel="canonical" href="' .$canonical. '">'; ?>
 
   <!--
    For efficiency sake, this was a purchased theme that has been extended for my needs.

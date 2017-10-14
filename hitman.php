@@ -1,3 +1,7 @@
+<?php
+  $title = 'Hitman Poster • Art Composition';
+  $description = 'Fan art poster created for a class project.';
+?>
 <?php include_once('inc/header.php'); ?>
 
 <body class="hidden">

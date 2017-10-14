@@ -1,10 +1,11 @@
+<?php
+  $title = 'Automobility';
+  $description = 'Creating a new brand image to empower people with disabilities to live forward.';
+?>
 <?php include_once('inc/header.php'); ?>
 
 <body class="hidden">
-
   <main>
-
-
     <div class="cd-index cd-main-content">
 
       <!-- Page Content -->
@@ -18,8 +19,6 @@
 
         <!-- Main -->
         <div id="main">
-
-
           <!-- Hero Section -->
           <div id="hero">
             <div id="hero-styles" class="parallax-onscroll opacity-onscroll">
@@ -43,69 +42,42 @@
 
           <!-- Main Content -->
           <div id="main-content">
-
-
             <!-- Row -->
             <div class="vc_row small text-align-center has-animation row_padding_top row_padding_bottom" data-delay="10">
-
               <div class="container">
-
                 <h2>Human Centered Design</h2>
                 <p>Human-centered design (HCD) was the guiding principle that helped us devise a richer, more interactive and welcoming site, on every platform. Usability and accessibility were at the forefront in creating functionality. We created a high-level experience reiterating FCA’s commitment to the community on a real and meaningful level.</p>
                 <a href="https://www.fcausautomobility.com/" target="_blank" class="link"><span>View Website</span></a>
-
               </div>
-
             </div>
             <!--/Row -->
-
-
 
             <!-- Row -->
             <div class="vc_row has-animation" data-delay="10">
-
               <div class="container">
-
                 <img src="/assets/img/projects/automobility/automobility-wireframes.jpg" alt="Automobility Wireframes">
-
                 <hr><hr>
-
                 <img src="images/projects/solave01.jpg" alt="">
-
                 <hr><hr>
-
                 <img src="images/projects/solave02.gif" alt="">
-
               </div>
-
             </div>
             <!--/Row -->
-
-
 
             <!-- Row -->
             <div class="vc_row has-animation row_padding_top row_padding_bottom" data-delay="10">
-
               <div class="container">
-
                 <div class=" one_third"><h3>The Challenge</h3></div>
-
                 <div class=" two_third last">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim metus dui, id fermentum lacus elementum vel. Duis malesuada risus quis ligula laoreet pulvinar.<br><br> Vestibulum ac bibendum eros. Ut magna dolor, volutpat nec enim id, blandit feugiat ante. Morbi vel ligula id erat fermentum imperdiet non a massa. </p>
                 </div>
-
               </div>
-
             </div>
             <!--/Row -->
 
-
-
             <!-- Row -->
             <div class="vc_row text-align-center has-animation" data-delay="10">
-
               <div class="container">
-
                 <div class="one_half has-animation" data-delay="100">
                   <a href="images/projects/solave03.jpg" class="image-link"><img src="images/projects/solave03.jpg" /></a>
                 </div>
@@ -113,42 +85,26 @@
                 <div class="one_half last has-animation" data-delay="200">
                   <a href="images/projects/solave04.jpg" class="image-link"><img src="images/projects/solave04.jpg" /></a>
                 </div>
-
               </div>
-
             </div>
             <!--/Row -->
-
-
 
             <!-- Row -->
             <div class="vc_row small text-align-center has-animation row_padding_top row_padding_bottom" data-delay="10">
-
               <div class="container">
-
                 <h3>The Solution</h3>
-
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim metus dui, id fermentum lacus elementum vel. Duis malesuada risus quis ligula laoreet pulvinar.</p>
-
               </div>
-
             </div>
             <!--/Row -->
-
-
 
             <!-- Row -->
             <div class="vc_row full text-align-center has-animation" data-delay="10">
-
               <div class="container">
-
                 <img src="images/projects/solave05.jpg" alt="">
-
               </div>
-
             </div>
             <!--/Row -->
-
 
             <div id="project-nav" class="has-animation" data-delay="100">
               <div class="nav-title">
@@ -156,9 +112,6 @@
               </div>
               <div class="nav-project-title"><span>Ellie Cashman</span></div>
             </div>
-
-
-
           </div>
           <!--/Main Content -->
         </div>

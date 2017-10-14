@@ -1,4 +1,8 @@
-﻿<?php include_once('inc/header.php'); ?>
+﻿<?php
+  $title = 'About';
+  $description = 'I believe in finding simplicity in complexity.';
+?>
+<?php include_once('inc/header.php'); ?>
 
 <body>
 	<main>
@@ -134,7 +138,7 @@
 
             <h3>Talk to me</h3>
             <p>If you'd like to talk with me about a new opportunity or need additional information on my capabilities, let me know.</p>
-            <a href="contact.html" class="ajax-link link" data-type="page-transition" ><span>Let's talk</span></a>
+            <a href="contact.php" class="ajax-link link" data-type="page-transition" ><span>Let's talk</span></a>
 
           </div>
         </div>

@@ -1,3 +1,7 @@
+<?php
+  $title = 'First Sip • Art Composition';
+  $description = 'Vector illustration created from a photo.';
+?>
 <?php include_once('inc/header.php'); ?>
 
 <body class="hidden">

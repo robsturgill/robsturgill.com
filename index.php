@@ -1,3 +1,7 @@
+<?php
+  $title = 'Rob Sturgill - UX Director • Strategy • Design • Development';
+  $description = 'Creating lasting impressions though inspiration so people together, can create better experiences.';
+?>
 <?php include_once('inc/header.php'); ?>
 
 

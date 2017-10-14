@@ -1,3 +1,7 @@
+<?php
+  $title = 'Reed Modified • Logo Design';
+  $description = 'Logo design for a construction company based out of Florida.';
+?>
 <?php include_once('inc/header.php'); ?>
 
 <body class="hidden">

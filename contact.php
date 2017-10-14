@@ -1,4 +1,8 @@
-﻿<?php include_once('inc/header.php'); ?>
+﻿<?php
+  $title = 'Let Talk';
+  $description = 'Here are a few ways to get in contact with me.';
+?>
+<?php include_once('inc/header.php'); ?>
 
 <body>
 	<main>

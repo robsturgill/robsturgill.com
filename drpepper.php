@@ -41,10 +41,12 @@
           <!-- Main Content -->
           <div id="main-content">
             <!-- Row -->
-            <div class="vc_row has-animation row_padding_top row_padding_bottom animate-in" data-delay="10">
+            <div class="vc_row has-animation text-align-center row_padding_top row_padding_bottom animate-in" data-delay="10">
+
               <div class="container">
-                <img class="img-center" src="/assets/img/projects/drpepper/destiny-drpepper-vector-illustration.jpg" alt="Dr. Pepper First Sip">
-                <img class="img-center" src="/assets/img/projects/drpepper/destiny-drpepper-progress-wireframe.jpg" alt="Art Wireframe">
+                <h2>Vector Illustration</h2>
+                <img src="/assets/img/projects/drpepper/destiny-drpepper-vector-illustration.jpg" alt="Dr. Pepper First Sip">
+                <img src="/assets/img/projects/drpepper/destiny-drpepper-progress-wireframe.jpg" alt="Art Wireframe">
               </div>
             </div>
             <!--/Row -->

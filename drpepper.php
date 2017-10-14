@@ -24,7 +24,7 @@
             <div id="hero-styles" class="parallax-onscroll opacity-onscroll">
               <div id="hero-caption">
                 <div class="inner text-align-center">
-                  <div class="hero-title">First Sip</div>
+                  <h1 class="hero-title">First Sip</h1>
                   <div class="hero-subtitle">Art Composition</div>
                 </div>
               </div>

@@ -24,7 +24,7 @@
             <div id="hero-styles" class="parallax-onscroll opacity-onscroll">
               <div id="hero-caption">
                 <div class="inner text-align-center">
-                  <div class="hero-title">Reed Modified</div>
+                  <h1 class="hero-title">Reed Modified</h1>
                   <div class="hero-subtitle">Logo Design</div>
                 </div>
               </div>

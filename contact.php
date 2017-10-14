@@ -25,7 +25,7 @@
         <div id="hero-styles" class="parallax-onscroll opacity-onscroll">
           <div id="hero-caption">
             <div class="inner text-align-center">
-              <div class="hero-title">Contact Me</div>
+              <h1 class="hero-title">Contact Me</h1>
               <div class="hero-subtitle">Or follow me on a few social networks</div>
             </div>
           </div>

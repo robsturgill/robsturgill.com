@@ -24,7 +24,7 @@
             <div id="hero-styles" class="parallax-onscroll opacity-onscroll">
               <div id="hero-caption">
                 <div class="inner text-align-center">
-                  <div class="hero-title">Hitman Poster</div>
+                  <h1 class="hero-title">Hitman Poster</h1>
                   <div class="hero-subtitle">Art Composition</div>
                 </div>
               </div>

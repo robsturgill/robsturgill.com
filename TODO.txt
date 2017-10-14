@@ -8,3 +8,6 @@ TODO LIST
 
 - update favicon
 - style toolbox copy on about page
+- add google analytics
+- verify in google search console
+- peek user test website

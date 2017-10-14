@@ -43,7 +43,7 @@
             <!-- Row -->
             <div class="vc_row has-animation row_padding_top row_padding_bottom animate-in" data-delay="10">
               <div class="container">
-                <div class=" one_third"><h2 style="color: rgb(255, 255, 255);">After Effect Experiment</h2></div>
+                <div class=" one_third"><h2>After Effect Experiment</h2></div>
                 <div class=" two_third last">
                   <p>This was one of my first experimental shorts created in After Effects back in 2006. Entire video was made from a series of still images and particle systems.</p>
                 </div>

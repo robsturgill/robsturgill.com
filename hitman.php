@@ -43,7 +43,7 @@
             <!-- Row -->
             <div class="vc_row has-animation row_padding_top row_padding_bottom animate-in" data-delay="10">
               <div class="container">
-                <div class=" one_third"><h2 style="color: rgb(255, 255, 255);">Details</h2></div>
+                <div class=" one_third"><h2>Details</h2></div>
                 <div class=" two_third last">
                   <p>Photo manipulation project. The various reference images at the bottom with me behind the camera in the shaving photo.</p>
                 </div>

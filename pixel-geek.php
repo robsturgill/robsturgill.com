@@ -1,6 +1,6 @@
 <?php
-  $title = 'Reed Modified • Logo Design';
-  $description = 'Logo design for a construction company based out of Florida.';
+  $title = 'Pixel Geek • Logo Design';
+  $description = 'A graphic for the pixel workers and geeks.';
 ?>
 <?php include_once('inc/header.php'); ?>
 

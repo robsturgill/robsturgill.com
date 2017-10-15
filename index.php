@@ -34,7 +34,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
               <ul id="filters">
                 <li><a id="all" href="#" data-filter="*" class="active">All</a><span>05</span></li>
                 <li><a href="#" data-filter=".branding">Branding</a><span>01</span></li>
-                <li><a href="#" data-filter=".design">Design</a><span>03</span></li>
+                <li><a href="#" data-filter=".design">Design</a><span>04</span></li>
                 <li><a href="#" data-filter=".web">Web</a><span>01</span></li>
               </ul>
             </div>
@@ -86,7 +86,25 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
  */ ?>
+
                 <div class="item wide design">
+                  <a href="pixel-geek.php" class="ajax-link" data-type="page-transition">
+                    <div class="item-content">
+                      <div class="item-image" data-src="/assets/img/projects/pixel-geek/pixel-geek-thumb.jpg"></div>
+                      <div class="item-caption">
+                        <div class="item-overlay">
+                          <div class="item-title">Pixel Geek</div>
+                          <div class="item-sub-mask">
+                            <div class="item-cat">Logo</div>
+                            <div class="item-case">View Detail</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item design">
                   <a href="reed-modified.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/reed-modified/reed-modified-thumb.jpg"></div>

@@ -1,6 +1,6 @@
 <?php
   $title = 'Automobility';
-  $description = 'Creating a new brand image to empower people with disabilities to live forward.';
+  $description = 'Developing a brand for people with disabilities to live forward and with vehicle mobility.';
 ?>
 <?php include_once('inc/header.php'); ?>
 
@@ -25,7 +25,7 @@
               <div id="hero-caption">
                 <div class="inner text-align-center">
                   <div class="hero-title">FCA Automobility</div>
-                  <div class="hero-subtitle">UX/UI</div>
+                  <div class="hero-subtitle">UX/UI • Web</div>
                 </div>
               </div>
             </div>
@@ -46,8 +46,25 @@
             <div class="vc_row small text-align-center has-animation row_padding_top row_padding_bottom" data-delay="10">
               <div class="container">
                 <h2>Human Centered Design</h2>
-                <p>Human-centered design (HCD) was the guiding principle that helped us devise a richer, more interactive and welcoming site, on every platform. Usability and accessibility were at the forefront in creating functionality. We created a high-level experience reiterating FCA’s commitment to the community on a real and meaningful level.</p>
-                <a href="https://www.fcausautomobility.com/" target="_blank" class="link"><span>View Website</span></a>
+                <p>This was a great opportunity to work with an amazing team to develop a brand campaign for people with disabilities. Human-centered design (HCD) was our approach for creating an experience where usability and accessibility were at the forefront. Leading the digital team effort, we produced an award winning website. My direct role included the following.</p>
+
+                <ul>
+                  <li>Persona development</li>
+                  <li>Prototyping</li>
+                  <li>UX design</li>
+                  <li>Information architecture (IA)</li>
+                  <li>Front end development</li>
+                  <li>User testing</li>
+                </ul>
+
+                <a href="https://www.fcausautomobility.com/" target="_blank" class="link"><span>View the Website</span></a>
+
+                <h3>Awards won</h3>
+                <ul>
+                  <li>Lorem ipsum dolor.</li>
+                  <li>Lorem ipsum dolor.</li>
+                  <li>Lorem ipsum dolor.</li>
+                </ul>
               </div>
             </div>
             <!--/Row -->

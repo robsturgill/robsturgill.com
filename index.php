@@ -32,8 +32,8 @@ $description = 'Creating lasting impressions though inspiration so people togeth
             <div class="inner">
               <div class="close-page-action"></div>
               <ul id="filters">
-                <li><a id="all" href="#" data-filter="*" class="active">All</a><span>07</span></li>
-                <li><a href="#" data-filter=".branding">Branding</a><span>03</span></li>
+                <li><a id="all" href="#" data-filter="*" class="active">All</a><span>05</span></li>
+                <li><a href="#" data-filter=".branding">Branding</a><span>01</span></li>
                 <li><a href="#" data-filter=".design">Design</a><span>03</span></li>
                 <li><a href="#" data-filter=".web">Web</a><span>01</span></li>
               </ul>
@@ -103,7 +103,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide design">
+                <div class="item wide web branding">
                   <a href="nashsauto.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/nashs-auto/nash-auto-thumb.jpg"></div>
@@ -154,7 +154,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide web">
+                <div class="item wide motion">
                   <a href="elscorcho-salsa.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/elscorcho-salsa/elscorcho-salsa-thumb.jpg"></div>

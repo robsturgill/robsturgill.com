@@ -42,7 +42,7 @@
           <div id="main-content">
 
             <!-- Row -->
-            <div class="vc_row text-align-center row_padding_top row_padding_bottom has-animation" data-delay="10">
+            <div class="vc_row text-align-center row_padding_top has-animation" data-delay="10">
               <div class="container">
 
                 <div class="one_half has-animation" data-delay="100">
@@ -52,8 +52,13 @@
                 <div class="one_half last has-animation" data-delay="200">
                   <a href="/assets/img/projects/pixel-geek/pixel-geek-color.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-color.png" /></a>
                 </div>
+              </div>
+            </div>
 
-                <div class="has-animation" data-delay="300">
+            <!-- Row -->
+            <div class="vc_row text-align-center has-animation" data-delay="10">
+              <div class="container">
+                <div class="has-animation" data-delay="100">
                   <a href="/assets/img/projects/pixel-geek/pixel-geek-black.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-black.png" /></a>
                 </div>
 

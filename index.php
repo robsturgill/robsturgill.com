@@ -1,4 +1,5 @@
 <?php
+$current = 'home';
 $title = 'Rob Sturgill - UX Director • Strategy • Design • Development';
 $description = 'Creating lasting impressions though inspiration so people together, can create better experiences.';
 ?>

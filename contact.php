@@ -1,4 +1,5 @@
 ﻿<?php
+  $current = 'contact';
   $title = 'Let Talk';
   $description = 'Here are a few ways to get in contact with me.';
 ?>

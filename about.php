@@ -1,4 +1,5 @@
 ﻿<?php
+  $current = 'about';
   $title = 'About';
   $description = 'I believe in finding simplicity in complexity.';
 ?>

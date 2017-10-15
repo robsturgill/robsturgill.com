@@ -1,3 +1,13 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 404 /error.php
+ErrorDocument 401 /error.php
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php
+ErrorDocument 500 /error.php
+
 <ifModule mod_headers.c>
 	Header set Connection keep-alive
 </ifModule>
@@ -60,5 +70,3 @@ RewriteRule . /themes/soho-wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
-
-ErrorDocument 404 /404.php

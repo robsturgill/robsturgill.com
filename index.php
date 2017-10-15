@@ -189,6 +189,23 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                     </div>
                   </a>
                 </div>
+
+                <div class="item wide design">
+                  <a href="marker-renders.php" class="ajax-link" data-type="page-transition">
+                    <div class="item-content">
+                      <div class="item-image" data-src="/assets/img/projects/marker-renders/marker-render-thumb.jpg"></div>
+                      <div class="item-caption">
+                        <div class="item-overlay">
+                          <div class="item-title">Marker Renders</div>
+                          <div class="item-sub-mask">
+                            <div class="item-cat">Art Composition</div>
+                            <div class="item-case">View Project</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
               <!--/Portfolio -->
 

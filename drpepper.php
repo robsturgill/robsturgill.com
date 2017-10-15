@@ -54,9 +54,9 @@
 
             <div id="project-nav" class="has-animation" data-delay="100">
               <div class="nav-title">
-                <a  class="ajax-link project-next" data-type="page-transition" href="nashsauto.php">next</a>
+                <a  class="ajax-link project-next" data-type="page-transition" href="/wayne-state-university.php">next</a>
               </div>
-              <div class="nav-project-title"><span>Nash's Auto</span></div>
+              <div class="nav-project-title"><span>Wayne State University</span></div>
             </div>
 
 

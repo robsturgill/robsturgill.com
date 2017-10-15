@@ -1,0 +1,13 @@
+TODO LIST
+
+- contact form success message text color needs to change to black
+  #success_page p {
+    color: #999999;
+  }
+
+
+- update favicon
+- style toolbox copy on about page
+- add google analytics
+- verify in google search console
+- peek user test website

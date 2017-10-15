@@ -15,7 +15,7 @@
             <!-- Navigation -->
             <nav>
               <ul data-breakpoint="1024" class="flexnav">
-                <li><a class="active" href="">Portfolio</a>
+                <li><a class="active" href="/">Portfolio</a>
 <?php /*
                   <ul>
                     <li><a class="ajax-link active" href="index.html" data-type="page-transition">Brick Wall</a></li>

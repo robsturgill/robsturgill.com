@@ -1,7 +1,7 @@
 ﻿<?php
-  $current = 'contact';
-  $title = 'Let Talk';
-  $description = 'Here are a few ways to get in contact with me.';
+  $current = '404';
+  $title = '404 • Page Not Found';
+  $description = 'This is not the page you are looking for.';
 ?>
 <?php include_once('inc/header.php'); ?>
 

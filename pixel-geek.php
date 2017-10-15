@@ -46,11 +46,11 @@
               <div class="container">
 
                 <div class="one_half has-animation" data-delay="100">
-                  <a href="/assets/img/projects/pixel-geek/pixel-geek-white.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-white.png" /></a>
+                  <a href="/assets/img/projects/pixel-geek/pixel-geek-white.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-white.png" alt="Pixel Geek Logo Variation"></a>
                 </div>
 
                 <div class="one_half last has-animation" data-delay="200">
-                  <a href="/assets/img/projects/pixel-geek/pixel-geek-color.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-color.png" /></a>
+                  <a href="/assets/img/projects/pixel-geek/pixel-geek-color.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-color.png" alt="Pixel Geek Logo Variation"></a>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@
             <div class="vc_row text-align-center has-animation" data-delay="10">
               <div class="container">
                 <div class="has-animation" data-delay="100">
-                  <a href="/assets/img/projects/pixel-geek/pixel-geek-black.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-black.png" /></a>
+                  <a href="/assets/img/projects/pixel-geek/pixel-geek-black.png" class="image-link"><img src="/assets/img/projects/pixel-geek/pixel-geek-black.png" alt="Pixel Geek Logo Variation"></a>
                 </div>
 
               </div>

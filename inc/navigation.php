@@ -6,8 +6,8 @@
             <!-- Logo -->
             <div id="logo">
               <a class="ajax-link" data-type="page-transition" href="/">
-                <img class="black-logo" src="images/logo.png" alt="Logo Black">
-                <img class="white-logo" src="images/logo-white.png" alt="Logo White">
+                <img class="black-logo" src="/assets/img/logo.png" alt="Logo Black">
+                <img class="white-logo" src="/assets/img/logo-white.png" alt="Logo White">
               </a>
             </div>
             <!--/Logo -->

@@ -2089,13 +2089,18 @@ main .cd-main-content.cd-about::before {
 
 
 
-/* Rob Sturgill Custom Styles */
+/* Rob Sturgill Custom Styles
+//--------------------------------------- */
 .img-center {
 	display: block;
 	margin: 0 auto;
 }
-
-
+.light-content li {
+  color: rgba(255,255,255,0.5);
+}
+.dark-content li {
+	color: #aaa;
+}
 
 /* Component: Embeds responsive
 // Credit: Nicolas Gallagher and SUIT CSS.
@@ -2131,3 +2136,4 @@ main .cd-main-content.cd-about::before {
 .embed-responsive-4by3 {
   padding-bottom: 75%;
 }
+

@@ -13,13 +13,10 @@ $description = 'Creating lasting impressions though inspiration so people togeth
 <body class="hidden">
 
   <main>
-
-
     <div class="cd-index cd-main-content">
 
       <!-- Page Content -->
       <div id="page-content" class="" data-bgcolor="#fff" data-textcolor="#000" data-portfoliocolor="#ccc">
-
         <div class="page-overlay from-bottom">
           <div class="animate-box-bottom"></div>
         </div>
@@ -47,8 +44,6 @@ $description = 'Creating lasting impressions though inspiration so people togeth
 
         <!-- Main -->
         <div id="main">
-
-
           <!-- Hero Section -->
           <div id="hero">
             <div id="hero-styles" class="scale-onscroll opacity-onscroll">
@@ -63,10 +58,8 @@ $description = 'Creating lasting impressions though inspiration so people togeth
           <div id="hero-height" class="hidden"></div>
           <!--/Hero Section -->
 
-
           <!-- Main Content -->
           <div id="main-content">
-
 
             <!-- Portfolio Wrap -->
             <div id="portfolio-wrap" class="">
@@ -74,6 +67,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
               <!-- Portfolio Columns -->
               <div id="portfolio" data-col="3">
 
+<?php /*
                 <div class="item ux">
                   <a href="automobility.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
@@ -90,7 +84,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                     </div>
                   </a>
                 </div>
-
+ */ ?>
                 <div class="item wide design">
                   <a href="reed-modified.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
@@ -175,58 +169,17 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                     </div>
                   </a>
                 </div>
-
-                <div class="item wide branding">
-                  <a href="project07.html" class="ajax-link" data-type="page-transition">
-                    <div class="item-content">
-                      <div class="item-image" data-src="images/7.jpg"></div>
-                      <div class="item-caption">
-                        <div class="item-overlay">
-                          <div class="item-title">Bruni Fashion</div>
-                          <div class="item-sub-mask">
-                            <div class="item-cat">Branding</div>
-                            <div class="item-case">See Case Study</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="item design">
-                  <a href="project08.html" class="ajax-link" data-type="page-transition">
-                    <div class="item-content">
-                      <div class="item-image" data-src="images/8.jpg"></div>
-                      <div class="item-caption">
-                        <div class="item-overlay">
-                          <div class="item-title">Yomagick</div>
-                          <div class="item-sub-mask">
-                            <div class="item-cat">Art Direction</div>
-                            <div class="item-case">See Case Study</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-
-
               </div>
               <!--/Portfolio -->
 
             </div>
             <!--/Portfolio Wrap -->
-
-
           </div>
         </div>
         <!--/Main -->
 
-
         <!-- Footer -->
         <footer class="hidden">
-
-
           <div id="page-action-holder" data-tooltip="View Filters" data-placement="right">
             <div id="open-filters"><i class="fa fa-eye" aria-hidden="true"></i></div>
           </div>

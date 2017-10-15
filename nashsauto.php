@@ -50,7 +50,7 @@
 
                 <div class="one_half last has-animation" data-delay="200">
                   <h2>Solution</h2>
-                  <p>In 2010 I designed the website and social media campaign by sourcing my own assets. I managed all front end development, hosting, server maintenance, and social media account admistration for the first few years. Originally created as a static site and later converted to a Wordpress theme for easy content updates.</p>
+                  <p>In 2010 I designed the website and social media campaign by sourcing my own assets. I managed all front-end development, hosting, server maintenance, and social media account administration for the first few years. Originally created as a static site and later converted to a Wordpress theme for easy content updates.</p>
                 </div>
 
                 <div class="has-animation text-align-center" data-delay="300">

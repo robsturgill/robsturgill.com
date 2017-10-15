@@ -2101,6 +2101,9 @@ main .cd-main-content.cd-about::before {
 .dark-content li {
 	color: #aaa;
 }
+#success_page p {
+	color: #000;
+}
 
 /* Component: Embeds responsive
 // Credit: Nicolas Gallagher and SUIT CSS.

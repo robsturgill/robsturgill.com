@@ -16,8 +16,9 @@ $(document).ready(function() {
 	AppearIteam();
 	BackToTop();
 	ContactForm();
+	FilterCounts();
 
-});
+}); // END doc.ready
 
 
 
@@ -1171,3 +1172,34 @@ Function Contact Formular
 
 	}//End ContactForm
 
+/*--------------------------------------------------
+Function Filter Count
+---------------------------------------------------*/
+
+	function FilterCounts() {
+		if( jQuery('#filters li').length > 0 ){
+
+			var filter_names = [];
+			var filter_elements = $('#filters li');
+
+			// filter list from data attribute and strip '.'
+			filter_elements.children('a').each(function(){
+				var filters = $(this).data('filter').substring(1);
+				filter_names.push(filters);
+			});
+
+			// loop over arrary to get element count
+			for (var i = 0; i < filter_names.length; i++) {
+				// get count for elements with class name from filter list array, display 2 digits
+				var items = ('0' + document.getElementsByClassName(filter_names[i]).length).slice(-2);
+
+				if (i === 0) {
+					// conditional for 'all' to get total display 2 digits
+					var total = ('0' + $('.item').length).slice(-2);
+					filter_elements.children('span')[i].append(total);
+				} else {
+					filter_elements.children('span')[i].append(items);
+				}
+			}
+		}
+	}//End FilterCounts

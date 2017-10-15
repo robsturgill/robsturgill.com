@@ -6,13 +6,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
 <?php include_once('inc/header.php'); ?>
 
 
-
-
-
-
-
 <body class="hidden">
-
   <main>
     <div class="cd-index cd-main-content">
 
@@ -21,7 +15,6 @@ $description = 'Creating lasting impressions though inspiration so people togeth
         <div class="page-overlay from-bottom">
           <div class="animate-box-bottom"></div>
         </div>
-
 
         <?php include_once('inc/navigation.php'); ?>
 
@@ -32,10 +25,11 @@ $description = 'Creating lasting impressions though inspiration so people togeth
             <div class="inner">
               <div class="close-page-action"></div>
               <ul id="filters">
-                <li><a id="all" href="#" data-filter="*" class="active">All</a><span>05</span></li>
-                <li><a href="#" data-filter=".branding">Branding</a><span>01</span></li>
-                <li><a href="#" data-filter=".design">Design</a><span>04</span></li>
-                <li><a href="#" data-filter=".web">Web</a><span>01</span></li>
+                <li><a id="all" href="#" data-filter="*" class="active">All</a><span></span></li>
+                <li><a href="#" data-filter=".branding">Branding</a><span></span></li>
+                <li><a href="#" data-filter=".design">Design</a><span></span></li>
+                <li><a href="#" data-filter=".web">Web</a><span></span></li>
+                <li><a href="#" data-filter=".motion">Motion</a><span></span></li>
               </ul>
             </div>
           </div>
@@ -139,7 +133,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide design">
+                <div class="item wide web design">
                   <a href="wayne-state-university.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/wsu/wsu-thumb.jpg"></div>
@@ -227,7 +221,6 @@ $description = 'Creating lasting impressions though inspiration so people togeth
 
               </div>
               <!--/Portfolio -->
-
             </div>
             <!--/Portfolio Wrap -->
           </div>

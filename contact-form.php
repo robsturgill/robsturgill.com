@@ -20,7 +20,7 @@ if(trim($name) == '') {
 	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message">Attention! You have entered an invalid email address, try again.</div>';
 	exit();
 }else if(trim($comments) == '') {
 	echo '<div class="error_message">Attention! Please enter your message.</div>';
@@ -34,9 +34,6 @@ if(get_magic_quotes_gpc()) {
 
 // Configuration option.
 // Enter the email address that you want to emails to be sent to.
-// Example $address = "joe.doe@yourdomain.com";
-
-//$address = "example@themeforest.net";
 $address = "contact@robsturgill.com";
 
 
@@ -71,7 +68,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h2>Email Sent Successfully.</h2>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+	echo "<p>Thank you <strong>$name</strong>, your message has been sent.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 

@@ -25,7 +25,7 @@
   <div class="cd-cover-layer"></div>
 
   <script src="js/jquery.min.js"></script>
-  <script src="js/plugins.js"></script>
+  <script src="js/plugins.min.js"></script>
   <script src="js/scripts.js"></script>
 
 </body>

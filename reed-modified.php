@@ -50,9 +50,9 @@
 
             <div id="project-nav" class="has-animation" data-delay="100">
               <div class="nav-title">
-                <a  class="ajax-link project-next" data-type="page-transition" href="project02.html">next</a>
+                <a  class="ajax-link project-next" data-type="page-transition" href="/">home</a>
               </div>
-              <div class="nav-project-title"><span>Ellie Cashman</span></div>
+              <div class="nav-project-title"><span>View portfolio</span></div>
             </div>
 
 

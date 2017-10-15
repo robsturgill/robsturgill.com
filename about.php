@@ -52,7 +52,7 @@
             <hr><hr><hr>
 
             <h2>My Story</h2>
-            <p>Over 10 years of experience ranging from graphic design, interactive media development, print/online ad campaigns, project management, and team management. Knowledge in areas such as UI/UX design, front-end development, and cyber security. I'm a leader and a collaborator who works in fast-paced environments. I adapt with technology and learn new software and tools. I love what I do and actively lend my expertise to help build stronger teams, solutions and networks.</p>
+            <p>Over 10 years of experience producing digital media, project management, and team management. UX design, front-end development, and cyber security allows me to bring unique perspectives. I'm a leader and a collaborator, adaptable with technology to new software and tools. I love what I do and lend my expertise to help build stronger teams, solutions and networks.</p>
             <hr><hr>
 
 <?php /*
@@ -68,7 +68,7 @@
 */?>
 
             <h3>Services</h3>
-            <p>Skills and methods much like software change with time. I have used a range of tools over my career to complete tasks and have adapted with the environments. I have my toolbox, but as a UX Director I continuously evaluate and assess tools for teams to become more efficient while keeping in mind business overhead, scalability, deployment, and user adoption concerns. <!-- Here’s a list of apps, services, tools, and methodologies I have used over time. --></p>
+            <p>As a UX professional, skills and methods much like software change with time. I have used a range of tools over my career to complete tasks and have adapted with the environments. Here is my toolbox. <!-- Here’s a list of apps, services, tools, and methodologies I have used over time. --></p>
             <br>
 
             <h4>Toolbox</h4>
@@ -137,9 +137,9 @@
 */ ?>
             <hr><hr>
 
-            <h3>Talk to me</h3>
-            <p>If you'd like to talk with me about a new opportunity or need additional information on my capabilities, let me know.</p>
-            <a href="contact.php" class="ajax-link link" data-type="page-transition" ><span>Let's talk</span></a>
+            <h3>Let's chat</h3>
+            <p>If you'd like to talk about a new opportunity or consultation, let me know.</p>
+            <a href="contact.php" class="ajax-link link" data-type="page-transition" ><span>Get in touch</span></a>
 
           </div>
         </div>

@@ -51,7 +51,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
               <div id="hero-caption">
                 <div class="inner text-align-center">
                   <div class="hero-title">Rob Sturgill / UX Professional</div>
-                  <div class="hero-subtitle">Creating lasting impressions though inspiration so people together, can create better experiences.</div>
+                  <div class="hero-subtitle">Inspiring people so together, we can create better experiences.</div>
                 </div>
               </div>
             </div>

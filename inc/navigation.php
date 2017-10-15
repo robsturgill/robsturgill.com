@@ -16,6 +16,7 @@
             <nav>
               <ul data-breakpoint="1024" class="flexnav">
                 <li><a class="active" href="">Portfolio</a>
+<?php /*
                   <ul>
                     <li><a class="ajax-link active" href="index.html" data-type="page-transition">Brick Wall</a></li>
                     <li><a class="ajax-link" href="portfolio01.html" data-type="page-transition">Half Squares</a></li>
@@ -24,8 +25,9 @@
                     <li><a class="ajax-link" href="portfolio04.html" data-type="page-transition">Classic Grid</a></li>
                   </ul>
                 </li>
-                <li><a class="ajax-link" href="about.php" data-type="page-transition">About</a></li>
                 <li><a class="ajax-link" href="blog.html" data-type="page-transition">Blog</a></li>
+*/ ?>
+                <li><a class="ajax-link" href="about.php" data-type="page-transition">About</a></li>
                 <li><a class="ajax-link" href="contact.php" data-type="page-transition">Contact</a></li>
               </ul>
 

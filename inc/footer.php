@@ -24,9 +24,9 @@
 
   <div class="cd-cover-layer"></div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/plugins.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/plugins.min.js"></script>
+  <script src="/assets/js/scripts.min.js"></script>
 
 </body>
 </html>

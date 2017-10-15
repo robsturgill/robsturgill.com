@@ -1,6 +1,6 @@
 ﻿<?php
   $current = 'contact';
-  $title = 'Let Talk';
+  $title = 'Contact';
   $description = 'Here are a few ways to get in contact with me.';
 ?>
 <?php include_once('inc/header.php'); ?>

@@ -67,7 +67,7 @@
 */?>
 
             <h3>Services</h3>
-            <p>Skills and methods much like software change with time. I have used a range of tools over my career to complete tasks and have adapted to the envoriments I worked in. I have my toolbox but as a UX Director I continously evaluate and assess tools for teams to become more efficient while keeping in mind business overhead, scalability, deployment, and user adoption concers. Here’s a list of apps, services, tools, and methodologies I have used over time.</p>
+            <p>Skills and methods much like software change with time. I have used a range of tools over my career to complete tasks and have adapted with the environments. I have my toolbox, but as a UX Director I continously evaluate and assess tools for teams to become more efficient while keeping in mind business overhead, scalability, deployment, and user adoption concers. <!-- Here’s a list of apps, services, tools, and methodologies I have used over time. --></p>
             <br>
 
             <h4>Toolbox</h4>

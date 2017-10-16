@@ -99,7 +99,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide design">
+                <div class="item wide web design">
                   <a href="viperhq.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/viperhq/viperhq-thumb.jpg"></div>

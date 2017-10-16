@@ -95,9 +95,9 @@
 
             <div id="project-nav" class="has-animation" data-delay="100">
               <div class="nav-title">
-                <a  class="ajax-link project-next" data-type="page-transition" href="reed-modified.php">next</a>
+                <a  class="ajax-link project-next" data-type="page-transition" href="viperhq.php">next</a>
               </div>
-              <div class="nav-project-title"><span>Reed Modified</span></div>
+              <div class="nav-project-title"><span>Viper Headquarters</span></div>
             </div>
 
           </div>

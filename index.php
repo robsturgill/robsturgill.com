@@ -99,6 +99,23 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
+                <div class="item wide design">
+                  <a href="viperhq.php" class="ajax-link" data-type="page-transition">
+                    <div class="item-content">
+                      <div class="item-image" data-src="/assets/img/projects/viperhq/viperhq-thumb.jpg"></div>
+                      <div class="item-caption">
+                        <div class="item-overlay">
+                          <div class="item-title">Viper Headquarters</div>
+                          <div class="item-sub-mask">
+                            <div class="item-cat">Web</div>
+                            <div class="item-case">View Project</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
                 <div class="item design">
                   <a href="reed-modified.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">

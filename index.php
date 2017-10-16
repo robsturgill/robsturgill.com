@@ -99,23 +99,6 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide web design">
-                  <a href="viperhq.php" class="ajax-link" data-type="page-transition">
-                    <div class="item-content">
-                      <div class="item-image" data-src="/assets/img/projects/viperhq/viperhq-thumb.jpg"></div>
-                      <div class="item-caption">
-                        <div class="item-overlay">
-                          <div class="item-title">Viper Headquarters</div>
-                          <div class="item-sub-mask">
-                            <div class="item-cat">Web</div>
-                            <div class="item-case">View Project</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-
                 <div class="item design">
                   <a href="reed-modified.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
@@ -133,7 +116,24 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item web branding">
+                <div class="item web design">
+                  <a href="viperhq.php" class="ajax-link" data-type="page-transition">
+                    <div class="item-content">
+                      <div class="item-image" data-src="/assets/img/projects/viperhq/viperhq-thumb.jpg"></div>
+                      <div class="item-caption">
+                        <div class="item-overlay">
+                          <div class="item-title">Viper Headquarters</div>
+                          <div class="item-sub-mask">
+                            <div class="item-cat">Web</div>
+                            <div class="item-case">View Project</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item wide web branding">
                   <a href="nashsauto.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/nashs-auto/nash-auto-thumb.jpg"></div>
@@ -218,7 +218,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide design">
+                <div class="item design">
                   <a href="marker-renders.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/marker-renders/marker-render-thumb.jpg"></div>

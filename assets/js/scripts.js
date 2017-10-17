@@ -284,7 +284,7 @@ Function Ajax Load
 			}
 
 			function loadNewContent(url, bool) {
-				url = ('' == url) ? 'index.html' : url;
+				url = ('' == url) ? 'index.php' : url;
 
 			var section = $('<div class="cd-main-content "></div>');
 

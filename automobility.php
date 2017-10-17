@@ -137,7 +137,7 @@
 
         <!-- Footer -->
         <footer class="hidden">
-          <a id="page-action-holder" class="ajax-link" href="index.html" data-type="page-transition" data-tooltip="Back to Works" data-placement="right">
+          <a id="page-action-holder" class="ajax-link" href="/" data-type="page-transition" data-tooltip="Back to Works" data-placement="right">
             <div id="backtoworks"><i class="fa fa-times" aria-hidden="true"></i></div>
           </a>
 

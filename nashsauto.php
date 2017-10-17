@@ -78,7 +78,7 @@
                 <div class="one_half" data-delay="100">
                   <h2>Realiging For a Mobile Experience</h2>
                   <p>With an increase of mobile device usage in 2013 I redesigned the site to focus on a mobile-first experience as the original site was not coded to be responsive. I also simplified the experience to a single page site as other vendors took over appointment and review services. The site has since been taken over by another vendor but my code is still available on GitHub.</p>
-                  <a class="link" href="https://github.com/robsturgill/nashsauto" target="_blank"><span>View the GitHub Repo <i class="fa fa-code-fork" aria-hidden="true"></i></span></a>
+                  <a class="link" href="https://github.com/robsturgill/nashsauto" target="_blank" rel="noopener"><span>View the GitHub Repo <i class="fa fa-code-fork" aria-hidden="true"></i></span></a>
                 </div>
               </div>
             </div>

@@ -1,8 +1,8 @@
 
           <ul class="socials-text">
-            <li><a href="https://github.com/robsturgill" target="_blank">GitHub</a></li>
-            <li><a href="https://www.twitter.com/robsturgill" target="_blank">Twitter</a></li>
-            <li><a href="https://www.behance.net/robsturgill" target="_blank">Behance</a></li>
+            <li><a href="https://github.com/robsturgill" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.twitter.com/robsturgill" target="_blank" rel="noopener">Twitter</a></li>
+            <li><a href="https://www.behance.net/robsturgill" target="_blank" rel="noopener">Behance</a></li>
           </ul>
 
           <div class="progress-page">

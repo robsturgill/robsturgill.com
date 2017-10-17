@@ -57,7 +57,7 @@
                   <li>User testing</li>
                 </ul>
 
-                <a href="https://www.fcausautomobility.com/" target="_blank" class="link"><span>View the Website</span></a>
+                <a href="https://www.fcausautomobility.com/" target="_blank" rel="noopener" class="link"><span>View the Website</span></a>
 
                 <h3>Awards won</h3>
                 <ul>

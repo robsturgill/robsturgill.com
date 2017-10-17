@@ -47,7 +47,7 @@
                   <h2>Product Website for the Gen IV Dodge Viper</h2>
                   <p>A redesigned to an exisiting site to accomodate special edition product and Viper racing support. I was responsible for the design, development of the site. The site launched in 2011 and has since been retired.</p>
 
-                  <a href="https://web.archive.org/web/20110510065252/http://www.viperheadquarters.com/" class="link" target="_blank">Wayback Machine archive</a>
+                  <a href="https://web.archive.org/web/20110510065252/http://www.viperheadquarters.com/" class="link" target="_blank" rel="noopener">Wayback Machine archive</a>
                 </div>
 
                 <div class="one_half last has-animation" data-delay="100">

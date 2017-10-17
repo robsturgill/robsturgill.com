@@ -87,8 +87,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/close.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -98,8 +98,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/logo-white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -109,8 +109,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -120,8 +120,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/next_slide_white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -131,8 +131,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/prev_slide_white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -143,7 +143,7 @@
 		"oAP": "\/assets\/img\/projects\/automobility\/automobility-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/automobility\/automobility-hero2.jpg": {
@@ -153,7 +153,7 @@
 		"oAP": "\/assets\/img\/projects\/automobility\/automobility-hero2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/automobility\/automobility-thumb.jpg": {
@@ -163,7 +163,7 @@
 		"oAP": "\/assets\/img\/projects\/automobility\/automobility-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/automobility\/automobility-wireframes.jpg": {
@@ -173,7 +173,7 @@
 		"oAP": "\/assets\/img\/projects\/automobility\/automobility-wireframes.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/drpepper\/destiny-drpepper-hero.jpg": {
@@ -193,7 +193,7 @@
 		"oAP": "\/assets\/img\/projects\/drpepper\/destiny-drpepper-progress-wireframe.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/drpepper\/destiny-drpepper-thumb.jpg": {
@@ -223,7 +223,7 @@
 		"oAP": "\/assets\/img\/projects\/elscorcho-salsa\/elscorcho-salsa-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/elscorcho-salsa\/elscorcho-salsa-thumb.jpg": {
@@ -233,7 +233,7 @@
 		"oAP": "\/assets\/img\/projects\/elscorcho-salsa\/elscorcho-salsa-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/hitman\/hitman-game-inspired-photo-manipulation.jpg": {
@@ -273,7 +273,7 @@
 		"oAP": "\/assets\/img\/projects\/hitman\/hitman-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/marker-renders\/marker-render-hero.jpg": {
@@ -283,7 +283,7 @@
 		"oAP": "\/assets\/img\/projects\/marker-renders\/marker-render-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/marker-renders\/marker-render-thumb.jpg": {
@@ -303,7 +303,7 @@
 		"oAP": "\/assets\/img\/projects\/marker-renders\/marker-render.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/nashs-auto\/nash-auto-thumb.jpg": {
@@ -313,7 +313,7 @@
 		"oAP": "\/assets\/img\/projects\/nashs-auto\/nash-auto-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/nashs-auto\/nashs-auto-facebook.jpg": {
@@ -323,7 +323,7 @@
 		"oAP": "\/assets\/img\/projects\/nashs-auto\/nashs-auto-facebook.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/nashs-auto\/nashs-auto-hero.jpg": {
@@ -333,7 +333,7 @@
 		"oAP": "\/assets\/img\/projects\/nashs-auto\/nashs-auto-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/nashs-auto\/nashs-auto-mobile-redesign.jpg": {
@@ -353,7 +353,7 @@
 		"oAP": "\/assets\/img\/projects\/nashs-auto\/nashs-auto-website-perspective.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/nashs-auto\/nashs-auto-website.jpg": {
@@ -363,7 +363,7 @@
 		"oAP": "\/assets\/img\/projects\/nashs-auto\/nashs-auto-website.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/pixel-geek\/pixel-geek-bg-pattern.png": {
@@ -372,8 +372,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/pixel-geek\/pixel-geek-bg-pattern.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -383,8 +383,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/pixel-geek\/pixel-geek-black.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -394,8 +394,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/pixel-geek\/pixel-geek-color.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -406,7 +406,7 @@
 		"oAP": "\/assets\/img\/projects\/pixel-geek\/pixel-geek-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/pixel-geek\/pixel-geek-white.png": {
@@ -415,8 +415,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/pixel-geek\/pixel-geek-white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -437,7 +437,7 @@
 		"oAP": "\/assets\/img\/projects\/reed-modified\/reed-modified-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/reed-modified\/reed-modified-variations.jpg": {
@@ -447,7 +447,7 @@
 		"oAP": "\/assets\/img\/projects\/reed-modified\/reed-modified-variations.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/viperhq\/viperhq-01.jpg": {
@@ -457,7 +457,7 @@
 		"oAP": "\/assets\/img\/projects\/viperhq\/viperhq-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/viperhq\/viperhq-02.jpg": {
@@ -467,7 +467,7 @@
 		"oAP": "\/assets\/img\/projects\/viperhq\/viperhq-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/viperhq\/viperhq-03.jpg": {
@@ -477,7 +477,7 @@
 		"oAP": "\/assets\/img\/projects\/viperhq\/viperhq-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/viperhq\/viperhq-04.jpg": {
@@ -507,7 +507,7 @@
 		"oAP": "\/assets\/img\/projects\/viperhq\/viperhq-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/viperhq\/viperhq-thumb.jpg": {
@@ -517,7 +517,7 @@
 		"oAP": "\/assets\/img\/projects\/viperhq\/viperhq-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/3d\/wsu-3d-01.jpg": {
@@ -527,7 +527,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/3d\/wsu-3d-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/3d\/wsu-3d-02.jpg": {
@@ -587,7 +587,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/3d\/wsu-3d-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/3d\/wsu-3d-08.jpg": {
@@ -597,7 +597,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/3d\/wsu-3d-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/3d\/wsu-3d-09.jpg": {
@@ -607,7 +607,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/3d\/wsu-3d-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/evites\/wsu-evite-01.jpg": {
@@ -617,7 +617,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/evites\/wsu-evite-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/evites\/wsu-evite-02.jpg": {
@@ -627,7 +627,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/evites\/wsu-evite-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/evites\/wsu-evite-03.jpg": {
@@ -637,7 +637,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/evites\/wsu-evite-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/evites\/wsu-evite-04.jpg": {
@@ -647,7 +647,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/evites\/wsu-evite-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/evites\/wsu-evite-05.jpg": {
@@ -657,7 +657,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/evites\/wsu-evite-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/evites\/wsu-evite-06.jpg": {
@@ -667,7 +667,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/evites\/wsu-evite-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-hero.png": {
@@ -676,8 +676,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-hero.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -688,7 +688,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-02.jpg": {
@@ -698,7 +698,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-03.jpg": {
@@ -708,7 +708,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-04.jpg": {
@@ -718,7 +718,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-05.jpg": {
@@ -728,7 +728,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-06.jpg": {
@@ -738,7 +738,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-07.jpg": {
@@ -748,7 +748,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-08.jpg": {
@@ -758,7 +758,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/web\/wsu-web-09.jpg": {
@@ -768,7 +768,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/web\/wsu-web-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/projects\/wsu\/wsu-thumb.jpg": {
@@ -778,7 +778,7 @@
 		"oAP": "\/assets\/img\/projects\/wsu\/wsu-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/zoom-white.png": {
@@ -787,8 +787,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/zoom-white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -798,8 +798,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/zoom.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

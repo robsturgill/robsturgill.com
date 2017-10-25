@@ -27,6 +27,7 @@
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/plugins.min.js"></script>
   <script src="/assets/js/scripts.min.js"></script>
+  <?php if(isset($footer_assets)) echo $footer_assets; ?>
 
 </body>
 </html>

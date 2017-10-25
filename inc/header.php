@@ -15,6 +15,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Poppins:500,600" rel="stylesheet">
   <?php if(isset($canonical)) echo '<link rel="canonical" href="' .$canonical. '">'; ?>
+  <?php if(isset($header_assets)) echo $header_assets; ?>
 
   <!--
    For efficiency sake, this was a purchased theme that has been extended for my needs.

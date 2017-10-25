@@ -28,6 +28,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                 <li><a id="all" href="#" data-filter="*" class="active">All</a><span></span></li>
                 <li><a href="#" data-filter=".branding">Branding</a><span></span></li>
                 <li><a href="#" data-filter=".design">Design</a><span></span></li>
+                <li><a href="#" data-filter=".development">Development</a><span></span></li>
                 <li><a href="#" data-filter=".web">Web</a><span></span></li>
                 <li><a href="#" data-filter=".motion">Motion</a><span></span></li>
               </ul>
@@ -82,6 +83,23 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                 </div>
  */ ?>
 
+                <div class="item web development">
+                  <a href="/product-color-changer.php" class="ajax-link" data-type="page-transition">
+                    <div class="item-content">
+                      <div class="item-image" data-src="/assets/img/projects/product-color-changer/product-color-changer-thumb.jpg"></div>
+                      <div class="item-caption">
+                        <div class="item-overlay">
+                          <div class="item-title">Simple Product Colorizer</div>
+                          <div class="item-sub-mask">
+                            <div class="item-cat">Development</div>
+                            <div class="item-case">Try the demo</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
                 <div class="item wide design">
                   <a href="pixel-geek.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
@@ -116,7 +134,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item web design">
+                <div class="item web design development">
                   <a href="viperhq.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/viperhq/viperhq-thumb.jpg"></div>
@@ -133,7 +151,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide web branding">
+                <div class="item wide web branding development">
                   <a href="nashsauto.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/nashs-auto/nash-auto-thumb.jpg"></div>
@@ -150,7 +168,7 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                   </a>
                 </div>
 
-                <div class="item wide web design">
+                <div class="item wide web design development">
                   <a href="wayne-state-university.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/wsu/wsu-thumb.jpg"></div>

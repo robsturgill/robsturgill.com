@@ -15,9 +15,9 @@
     ';
 
   $footer_assets = '
-    <script type="text/javascript" src="/assets/src/colorizer/js/jquery.minicolors.min.js" defer></script>
-    <script type="text/javascript" src="/assets/src/colorizer/js/pixastic.custom.js" defer></script>
-    <script type="text/javascript" src="/assets/src/colorizer/js/colorizer.js" defer></script>
+    <script type="text/javascript" src="/assets/src/colorizer/js/jquery.minicolors.min.js"></script>
+    <script type="text/javascript" src="/assets/src/colorizer/js/pixastic.custom.js"></script>
+    <script type="text/javascript" src="/assets/src/colorizer/js/colorizer.js"></script>
   ';
 ?>
 <?php include_once('inc/header.php'); ?>

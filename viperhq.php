@@ -25,7 +25,7 @@
               <div id="hero-caption">
                 <div class="inner text-align-center">
                   <h1 class="hero-title">Viper Headquarters</h1>
-                  <div class="hero-subtitle">Web Design • Development</div>
+                  <div class="hero-subtitle">IA • Web Design • Development</div>
                 </div>
               </div>
             </div>
@@ -47,7 +47,15 @@
                   <h2>Product Website for the Gen IV Dodge Viper</h2>
                   <p>A redesigned to an exisiting site to accomodate special edition product and Viper racing support. I was responsible for the design, development of the site. The site launched in 2011 and has since been retired.</p>
 
-                  <a href="https://web.archive.org/web/20110510065252/http://www.viperheadquarters.com/" class="link" target="_blank" rel="noopener">Wayback Machine archive</a>
+                  <ul>
+                    <li>Information Architecture</li>
+                    <li>Wireframes</li>
+                    <li>Visual Design</li>
+                    <li>Development (HTML, CSS, JS)</li>
+                    <li>MODx CMS Integration</li>
+                  </ul>
+
+                  <a href="https://web.archive.org/web/20110510065252/http://www.viperheadquarters.com/" class="link" target="_blank" rel="noopener">Wayback Machine Archive</a>
                 </div>
 
                 <div class="one_half last has-animation" data-delay="100">

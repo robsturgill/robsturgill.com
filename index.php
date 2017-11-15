@@ -84,6 +84,23 @@ $description = 'Creating lasting impressions though inspiration so people togeth
  */ ?>
 
                 <div class="item web development">
+                  <a href="/jhsm.php" class="ajax-link" data-type="page-transition">
+                    <div class="item-content">
+                      <div class="item-image" data-src="/assets/img/projects/jhsm/jhsm-thumb.jpg"></div>
+                      <div class="item-caption">
+                        <div class="item-overlay">
+                          <div class="item-title">Jewish Historical Society of Michigan</div>
+                          <div class="item-sub-mask">
+                            <div class="item-cat">Development</div>
+                            <div class="item-case">View project</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item wide web development">
                   <a href="/product-color-changer.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/product-color-changer/product-color-changer-thumb.jpg"></div>

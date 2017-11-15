@@ -105,7 +105,7 @@
 
             <div id="project-nav" class="has-animation" data-delay="100">
               <div class="nav-title">
-                <a  class="ajax-link project-next" data-type="page-transition" href="/">home</a>
+                <a  class="ajax-link project-next" data-type="page-transition" href="/jhsm.php">next</a>
               </div>
               <div class="nav-project-title"><span>View portfolio</span></div>
             </div>

@@ -15,9 +15,9 @@
     ';
 
   $footer_assets = '
-    <script type="text/javascript" src="/assets/src/colorizer/js/jquery.minicolors.min.js"></script>
+    <!-- <script type="text/javascript" src="/assets/src/colorizer/js/jquery.minicolors.min.js"></script>
     <script type="text/javascript" src="/assets/src/colorizer/js/pixastic.custom.js"></script>
-    <script type="text/javascript" src="/assets/src/colorizer/js/colorizer.js"></script>
+    <script type="text/javascript" src="/assets/src/colorizer/js/colorizer.js"></script> -->
   ';
 ?>
 <?php include_once('inc/header.php'); ?>
@@ -72,7 +72,7 @@
                     <li>Single color mask of the product</li>
                   </ol>
 
-                  <a href="https://github.com/robsturgill/product-color-changer" target="noopener noreferrer" class="link"><span>View the GitHub Repo <i class="fa fa-code-fork" aria-hidden="true"></i></span></a>
+                  <a href="https://github.com/robsturgill/product-color-changer" rel="noopener noreferrer" class="link"><span>View the GitHub Repo <i class="fa fa-code-fork" aria-hidden="true"></i></span></a>
                 </div>
 
                 <div class="one_half last has-animation" data-delay="200">
@@ -85,9 +85,9 @@
             <div class="vc_row text-align-center row_padding_top has-animation" data-delay="10">
               <div class="container">
                 <div class="has-animation" data-delay="100">
-                  <h2>Try the Demo</h2>
-                  <div id="demo-container">
-                    <!-- <div class="canvas-wrap">
+                  <a href="/assets/src/colorizer/" target="_blank"><h2>Try the Demo</h2></a>
+                  <!-- <div id="demo-container">
+                    <div class="canvas-wrap">
                       <img id="img1" src="/assets/src/colorizer/img/product-mask.png" alt="product mask">
                       <img id="img2" src="/assets/src/colorizer/img/product-color.jpg" alt="product image">
                     </div>
@@ -96,10 +96,8 @@
                       <input id="hue-change" type="text" value="#ffffff">
                       <input id="color" type="text" value="#ffffff">
                       <input id="applyColor" type="button" value="Update Color">
-                    </div> -->
-
-                    <iframe class="embed-responsive-item" src="/assets/src/colorizer/" width="620" height="530"></iframe>
-                  </div>
+                    </div>
+                  </div> -->
                 </div>
               </div>
             </div>

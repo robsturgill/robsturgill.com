@@ -87,7 +87,7 @@
                 <div class="has-animation" data-delay="100">
                   <h2>Try the Demo</h2>
                   <div id="demo-container">
-                    <div class="canvas-wrap">
+                    <!-- <div class="canvas-wrap">
                       <img id="img1" src="/assets/src/colorizer/img/product-mask.png" alt="product mask">
                       <img id="img2" src="/assets/src/colorizer/img/product-color.jpg" alt="product image">
                     </div>
@@ -96,7 +96,9 @@
                       <input id="hue-change" type="text" value="#ffffff">
                       <input id="color" type="text" value="#ffffff">
                       <input id="applyColor" type="button" value="Update Color">
-                    </div>
+                    </div> -->
+
+                    <iframe class="embed-responsive-item" src="/assets/src/colorizer/" width="620" height="530"></iframe>
                   </div>
                 </div>
               </div>

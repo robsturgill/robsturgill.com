@@ -25,7 +25,7 @@
               <div id="hero-caption">
                 <div class="inner text-align-center">
                   <div class="hero-title">FCA Automobility</div>
-                  <div class="hero-subtitle">UX/UI • Web</div>
+                  <div class="hero-subtitle">UX • Web • Development</div>
                 </div>
               </div>
             </div>
@@ -43,10 +43,10 @@
           <!-- Main Content -->
           <div id="main-content">
             <!-- Row -->
-            <div class="vc_row small text-align-center has-animation row_padding_top row_padding_bottom" data-delay="10">
+            <div class="vc_row small has-animation row_padding_top row_padding_bottom" data-delay="10">
               <div class="container">
                 <h2>Human Centered Design</h2>
-                <p>This was a great opportunity to work with an amazing team to develop a brand campaign for people with disabilities. Human-centered design (HCD) was our approach for creating an experience where usability and accessibility were at the forefront. Leading the digital team effort, we produced an award winning website. My direct role included the following.</p>
+                <p>This was a great opportunity to work with an amazing team to develop a brand campaign for people with disabilities. We utilized a Human-centered design (HCD) approach for creating an experience where usability and accessibility were at the forefront. Leading the digital team effort, we produced an award-winning website that was inspiring and felt human. My direct role included the following.</p>
 
                 <ul>
                   <li>Persona development</li>
@@ -59,12 +59,8 @@
 
                 <a href="https://www.fcausautomobility.com/" target="_blank" rel="noopener" class="link"><span>View the Website</span></a>
 
-                <h3>Awards won</h3>
-                <ul>
-                  <li>Lorem ipsum dolor.</li>
-                  <li>Lorem ipsum dolor.</li>
-                  <li>Lorem ipsum dolor.</li>
-                </ul>
+                <hr>
+                <h4 class="h5">2017 Hermes Platinum Award Winner: Multi-Media Campaign</h3>
               </div>
             </div>
             <!--/Row -->
@@ -74,60 +70,20 @@
               <div class="container">
                 <img src="/assets/img/projects/automobility/automobility-wireframes.jpg" alt="Automobility Wireframes">
                 <hr><hr>
-                <img src="images/projects/solave01.jpg" alt="">
+                <img src="/assets/img/projects/automobility/automobility-home.jpg" alt="Automobility Home">
                 <hr><hr>
-                <img src="images/projects/solave02.gif" alt="">
-              </div>
-            </div>
-            <!--/Row -->
-
-            <!-- Row -->
-            <div class="vc_row has-animation row_padding_top row_padding_bottom" data-delay="10">
-              <div class="container">
-                <div class=" one_third"><h3>The Challenge</h3></div>
-                <div class=" two_third last">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim metus dui, id fermentum lacus elementum vel. Duis malesuada risus quis ligula laoreet pulvinar.<br><br> Vestibulum ac bibendum eros. Ut magna dolor, volutpat nec enim id, blandit feugiat ante. Morbi vel ligula id erat fermentum imperdiet non a massa. </p>
-                </div>
-              </div>
-            </div>
-            <!--/Row -->
-
-            <!-- Row -->
-            <div class="vc_row text-align-center has-animation" data-delay="10">
-              <div class="container">
-                <div class="one_half has-animation" data-delay="100">
-                  <a href="images/projects/solave03.jpg" class="image-link"><img src="images/projects/solave03.jpg" /></a>
-                </div>
-
-                <div class="one_half last has-animation" data-delay="200">
-                  <a href="images/projects/solave04.jpg" class="image-link"><img src="images/projects/solave04.jpg" /></a>
-                </div>
-              </div>
-            </div>
-            <!--/Row -->
-
-            <!-- Row -->
-            <div class="vc_row small text-align-center has-animation row_padding_top row_padding_bottom" data-delay="10">
-              <div class="container">
-                <h3>The Solution</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim metus dui, id fermentum lacus elementum vel. Duis malesuada risus quis ligula laoreet pulvinar.</p>
-              </div>
-            </div>
-            <!--/Row -->
-
-            <!-- Row -->
-            <div class="vc_row full text-align-center has-animation" data-delay="10">
-              <div class="container">
-                <img src="images/projects/solave05.jpg" alt="">
+                <img src="/assets/img/projects/automobility/automobility-individual-story.jpg" alt="Automobility Story">
+                <hr><hr>
+                <a href="https://www.fcausautomobility.com/" target="_blank" rel="noopener" class="link text-center"><span>View the Website</span></a>
               </div>
             </div>
             <!--/Row -->
 
             <div id="project-nav" class="has-animation" data-delay="100">
               <div class="nav-title">
-                <a  class="ajax-link project-next" data-type="page-transition" href="project02.html">next</a>
+                <a  class="ajax-link project-next" data-type="page-transition" href="/jhsm.php">previous</a>
               </div>
-              <div class="nav-project-title"><span>Ellie Cashman</span></div>
+              <div class="nav-project-title"><span>Jewish Historical Society of Michigan</span></div>
             </div>
           </div>
           <!--/Main Content -->

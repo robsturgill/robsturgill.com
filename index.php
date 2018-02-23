@@ -64,8 +64,8 @@ $description = 'Creating lasting impressions though inspiration so people togeth
               <!-- Portfolio Columns -->
               <div id="portfolio" data-col="3">
 
-<?php /*
-                <div class="item ux">
+
+                <div class="item wide ux web development">
                   <a href="automobility.php" class="ajax-link" data-type="page-transition">
                     <div class="item-content">
                       <div class="item-image" data-src="/assets/img/projects/automobility/automobility-thumb.jpg"></div>
@@ -73,15 +73,14 @@ $description = 'Creating lasting impressions though inspiration so people togeth
                         <div class="item-overlay">
                           <div class="item-title">FCA Automobility</div>
                           <div class="item-sub-mask">
-                            <div class="item-cat">UX/UI</div>
-                            <div class="item-case">See Case Study</div>
+                            <div class="item-cat">UX, Development</div>
+                            <div class="item-case">View project</div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </a>
                 </div>
- */ ?>
 
                 <div class="item web development">
                   <a href="/jhsm.php" class="ajax-link" data-type="page-transition">

@@ -62,6 +62,18 @@
                 <div class="message-box">
                   <textarea name="comments" cols="40" rows="4" id="comments" onfocus="if(this.value == 'Your Message') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Message'; }" >Your Message</textarea><label class="input_label slow"></label>
                 </div>
+
+                <script src="https://www.google.com/recaptcha/api.js?render=6LeMbJMUAAAAAOJTRco_AVz7HX1b7EFN_suQ8rYp"></script>
+                <script>
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LeMbJMUAAAAAOJTRco_AVz7HX1b7EFN_suQ8rYp', {action: 'contact'}).then(function(token) {
+                      var recaptchaResponse = document.getElementById('recaptchaResponse');
+                      recaptchaResponse.value = token;
+                    });
+                });
+                </script>
+                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
                 <div class="submit-box">
                   <input type="submit" class="send_message cillar-button" id="submit" value="Submit" />
                 </div>

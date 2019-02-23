@@ -1,4 +1,23 @@
 <?php
+// CAPTCHA request
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
+    include('inc/.env');
+    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptcha_secret = $_ENV["CAPTCHA_SECRET"];
+    $recaptcha_response = $_POST['recaptcha_response'];
+
+    // Make and decode POST request:
+    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+    $recaptcha = json_decode($recaptcha);
+
+    // Take action based on the score returned:
+    if ($recaptcha->score >= 0.5) {
+        // Verified - send email
+    } else {
+        exit();
+    }
+}
+
 
 if(!$_POST) exit;
 
@@ -61,10 +80,9 @@ $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
+
 if(mail($address, $e_subject, $msg, $headers)) {
-
 	// Email has sent successfully, echo a success page.
-
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h2>Email Sent Successfully.</h2>";
@@ -73,7 +91,6 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "</fieldset>";
 
 } else {
-
 	echo 'ERROR!';
-
 }
+

@@ -35,7 +35,7 @@
       <div id="hero-height" class="hidden"></div>
       <!--/Hero Section -->
 
-
+<?php /*
       <!-- Main Content -->
       <div id="main-content">
 
@@ -87,6 +87,7 @@
         <!--/Row -->
       </div>
       <!--/Main Content -->
+*/ ?>
     </div>
     <!--/Main -->
 

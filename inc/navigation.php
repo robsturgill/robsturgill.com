@@ -28,7 +28,9 @@
                 <li><a class="ajax-link" href="blog.html" data-type="page-transition">Blog</a></li>
 */ ?>
                 <li><a class="ajax-link <?php if($current == 'about') {echo 'active';} ?>" href="about.php" data-type="page-transition">About</a></li>
+<?php /*
                 <li><a class="ajax-link <?php if($current == 'contact') {echo 'active';} ?>" href="contact.php" data-type="page-transition">Contact</a></li>
+*/ ?>
               </ul>
 
             </nav>
